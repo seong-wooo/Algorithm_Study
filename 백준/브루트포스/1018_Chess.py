@@ -59,7 +59,7 @@ print(mn)
 # count = []
 # for i in range(m):
 #     a.append(input())
-# 
+#
 #
 # for i in range(m - 7):
 #     for j in range(n - 7):
