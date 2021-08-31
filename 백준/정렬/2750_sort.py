@@ -6,5 +6,4 @@ for i in range(int(input())):
 a.sort()
 
 for j in a:
-    p
-    int(j)
+    print(j)
