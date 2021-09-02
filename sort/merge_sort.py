@@ -20,7 +20,6 @@ def merge(list1, list2):
 # 합병 정렬
 # 재귀를 이용하여 정렬한다.
 def merge_sort(my_list):
-    # 코드를 입력하세요.
     if len(my_list) < 2:
         return my_list
     mid = len(my_list) // 2

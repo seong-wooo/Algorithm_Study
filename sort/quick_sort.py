@@ -5,7 +5,6 @@ def swap_elements(my_list, index1, index2):
 # 퀵 정렬에서 사용되는 partition 함수
 # pivot의 위치를 return 한다
 def partition(my_list, start, end):
-    # 코드를 작성하세요.
     i = start
     p = end
     b = start
@@ -25,7 +24,6 @@ def partition(my_list, start, end):
 def quicksort(my_list, start=0, end=None):
     if end == None:
         end = len(my_list) - 1
-    # 코드를 작성하세요.
     if start >= end:
         return
     p = partition(my_list, start, end)
