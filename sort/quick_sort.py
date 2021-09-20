@@ -1,3 +1,8 @@
+import time
+import random
+import matplotlib.pyplot as plt
+
+
 # 두 요소의 위치를 바꿔주는 helper function
 def swap_elements(my_list, index1, index2):
     my_list[index1], my_list[index2] = my_list[index2], my_list[index1]
@@ -31,17 +36,28 @@ def quicksort(my_list, start=0, end=None):
     quicksort(my_list, p + 1, end)
 
 
-# 테스트 1
-list1 = [1, 3, 5, 7, 9, 11, 13, 11]
-quicksort(list1)
-print(list1)
+x_n = [100000,200000,300000,400000,500000,600000,700000,800000,900000,1000000]
+y_time=[0,0,0,0,0,0,0,0,0,0]
 
-# 테스트 2
-list2 = [28, 13, 9, 30, 1, 48, 5, 7, 15]
-quicksort(list2)
-print(list2)
+for i in range(5):
+    for j in range(10):
+        sort_list = [random.randint(1, 1000000) for _ in range(x_n[j])]
+        start = time.time()
+        quicksort(sort_list)
+        end = time.time()
+        y_time[j] += end - start
 
-# 테스트 3
-list3 = [2, 5, 6, 7, 1, 2, 4, 7, 10, 11, 4, 15, 13, 1, 6, 4]
-quicksort(list3)
-print(list3)
+
+for i in range(10):
+    y_time[i] /= 5
+
+plt.plot(x_n, y_time)
+plt.title("Quick Sort")
+plt.xlabel("n")
+plt.ylabel("time")
+plt.show()
+
+
+
+
+
