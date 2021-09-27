@@ -3,7 +3,7 @@
 ### [백준](https://github.com/seong-wooo/Algorithm_Study/tree/main/%EB%B0%B1%EC%A4%80)
 - 백준ID : **seongwoo0513**
 - 사용 언어: *python*
-- 2021년 09월 13일 골드5 티어 달성
+- 2021-09-13 골드5 티어 달성
 
 ___
 
@@ -13,4 +13,4 @@ ___
 ___
 
 ### [이것이 코딩테스트다 with 파이썬](https://github.com/seong-wooo/Algorithm_Study/tree/main/%EC%9D%B4%EC%BD%94%ED%85%8C2021)
-- 그리디 공부중
+- 2021-09-28 그리디 학습완료
