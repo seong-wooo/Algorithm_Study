@@ -13,4 +13,4 @@ for i in range(2, x+1):
     minimum = min(minimum, dp[i//2]+1)
   dp[i] = minimum
 
-print(dp[x])
+print(dㅇ[x])
