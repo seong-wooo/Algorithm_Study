@@ -17,3 +17,4 @@ ___
 - 2021-09-30 [구현](https://github.com/seong-wooo/Algorithm_Study/tree/main/%EC%9D%B4%EC%BD%94%ED%85%8C2021/%EA%B5%AC%ED%98%84) 학습완료
 - 2021-10-04 [DFS/BFS](https://github.com/seong-wooo/Algorithm_Study/tree/main/%EC%9D%B4%EC%BD%94%ED%85%8C2021/DFS_BFS) 학습완료
 - 2021-10-05 [정렬](https://github.com/seong-wooo/Algorithm_Study/tree/main/%EC%9D%B4%EC%BD%94%ED%85%8C2021/%EC%A0%95%EB%A0%AC) 학습완료
+- 2021-10-08 [이진탐색](https://github.com/seong-wooo/Algorithm_Study/tree/main/%EC%9D%B4%EC%BD%94%ED%85%8C2021/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89) 학습완료
