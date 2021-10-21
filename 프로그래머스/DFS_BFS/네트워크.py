@@ -1,5 +1,5 @@
 # 기본적인 bfs 큐를 이용한 방법으로 풀었다.
-# 
+#
 
 from collections import deque
 
