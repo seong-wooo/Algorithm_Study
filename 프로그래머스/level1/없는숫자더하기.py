@@ -5,3 +5,8 @@ def solution(numbers):
         if i not in numbers:
             result+=i
     return result
+
+
+# 여진수
+def solution(numbers):
+    return 45 - sum(numbers)
