@@ -5,3 +5,6 @@ def solution(sizes):
         w, h = max(w, max(wh)), max(h, min(wh))
 
     return w * h
+
+
+print([][-1:])
