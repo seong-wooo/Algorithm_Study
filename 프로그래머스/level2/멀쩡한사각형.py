@@ -15,3 +15,4 @@ def solution(w,h):
 
 
     return w*h - (cut * g)
+
