@@ -1,5 +1,4 @@
-# 알고리즘 문제를 풀고 기록하기 위한 프로젝트
-
+# 알고리즘 문제 풀자
 ### [백준](https://github.com/seong-wooo/Algorithm_Study/tree/main/%EB%B0%B1%EC%A4%80)
 - 백준ID : **seongwoo0513**
 - 사용 언어: *python*
