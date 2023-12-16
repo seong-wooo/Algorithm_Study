@@ -1,16 +1,8 @@
-from collections import defaultdict
+from collections import Counter
 
 def solution(weights):
     
-    d = defaultdict(int)
-    
-    for weight in sorted(weights):
-        d[weight] += 1
-    
-    # (2, 2)
-    # (3, 2)
-    # (4, 2)
-    # (4, 3)
+    d = Counter(weights)
     
     answer = 0
     for key in d.keys():
