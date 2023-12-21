@@ -1,10 +1,10 @@
 # [level 2] 교점에 별 만들기 - 87377 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/87377) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/87377?language=python3) 
 
 ### 성능 요약
 
-메모리: 82 MB, 시간: 0.07 ms
+메모리: 10.2 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 5일 2:32:27
+2023년 12월 5일 2:43:34
 
 ### 문제 설명
 
