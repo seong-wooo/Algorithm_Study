@@ -1,15 +1,8 @@
+import re
+from collections import Counter
+
 def solution(s):
-    s = list(map(lambda x :  list(map(int, x.split(","))), s.replace("{{", "").replace("}}", "").split("},{")))
+    c = Counter(re.findall('\d+', s))
     
-    s.sort(key = lambda x : len(x))
+    return [int(k) for k, v in sorted(c.items(), key = lambda x: -x[1])]
     
-    result = set(s[0])
-    answer = s[0]
-    
-    for p in s:
-        add = set(p) - result
-        result.update(add)
-        for a in add:
-            answer.append(a)
-    
-    return answer
