@@ -37,7 +37,6 @@ def solution(info, query):
                 result += len(d[key]) - bisect_left(d[key], value)
                 
         answer.append(result)
-    
     return answer
             
             

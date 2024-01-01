@@ -1,6 +1,6 @@
 # [level 2] 순위 검색 - 72412 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/72412?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/72412) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 1일 18:48:38
+2024년 1월 1일 18:48:48
 
 ### 문제 설명
 
