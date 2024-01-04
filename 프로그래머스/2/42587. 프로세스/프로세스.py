@@ -1,28 +1,22 @@
-from collections import Counter, deque
+import heapq as hq
+from collections import deque
 
 def solution(p, l):
-    counter = [0] * 10
+    a = [-x for x in p]
     
-    for num in p:
-        for i in range(1, num):
-            counter[i] += 1
+    hq.heapify(a)
+
+    p = deque([(x, i) for i, x in enumerate(p)])
     
-    p = deque(zip(p,[i for i in range(len(p))]))
     answer = 1
-    while True:
-        if counter[p[0][0]] == 0:
+    while p:
+        if p[0][0] == -a[0]:
             t = p.popleft()
             if t[1] == l:
                 return answer
-            for i in range(1, t[0]):
-                counter[i] -= 1
+            hq.heappop(a)
             answer += 1
-            
         else:
             p.append(p.popleft())
-            
-        
-            
-    return answer        
-        
     
+    return answer
