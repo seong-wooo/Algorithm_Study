@@ -1,14 +1,11 @@
-from collections import defaultdict
+from collections import Counter
 
 def solution(clothes):
-    d = defaultdict(list)
-    
-    for c in clothes:
-        d[c[1]].append(c[0])
+    c = Counter([k for c, k in clothes])
         
     answer = 1
-    for v in d.values():
-        answer *= len(v) + 1
+    for v in c.values():
+        answer *= v + 1
         
     return answer - 1
         
