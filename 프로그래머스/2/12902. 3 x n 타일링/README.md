@@ -1,6 +1,6 @@
 # [level 2] 3 x n 타일링 - 12902 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12902?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12902?language=java) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 6일 1:51:35
+2024년 1월 6일 2:4:45
 
 ### 문제 설명
 
