@@ -8,8 +8,8 @@ def solution(str1, str2):
     if not d1 and not d2:
         return 65536
         
-    k1 = set(d1.keys())  
-    k2 = set(d2.keys())  
+    k1 = d1.keys()
+    k2 = d2.keys()
     
     inters, union = k1&k2, k1|k2
     
