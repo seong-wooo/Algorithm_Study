@@ -6,10 +6,12 @@ class Solution
         int temp = a + b;
         a = (int) Math.min(a, b);
         b = temp - a;
+        a--;
+        b--;
         
-        while (a % 2 != 1 || a + 1 != b) {
-            a = (a + 1) / 2;
-            b = (b + 1) / 2;
+        while (a / 2 != b / 2) {
+            a /= 2;
+            b /= 2;
             answer++;
         }
         
