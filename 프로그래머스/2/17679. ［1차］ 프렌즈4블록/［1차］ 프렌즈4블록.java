@@ -16,30 +16,29 @@ class Solution {
     
     public int remove(char[][] board) {
         int answer = 0;
-        Set<List<Integer>> delete = new HashSet<>();
         int n = board.length;
         int m = board[0].length;
+        boolean[][] toRemove = new boolean[n][m];
         
         for (int j = 0; j < n - 1; j++) {
             for (int i = 0; i < m - 1; i++) {
                 if (board[j][i] != '-' && isSquare(board, j, i)) {
-                    delete.add(List.of(j, i));
-                    delete.add(List.of(j, i + 1));
-                    delete.add(List.of(j + 1, i));
-                    delete.add(List.of(j + 1, i + 1));
+                    toRemove[j][i] = true;
+                    toRemove[j][i + 1] = true;
+                    toRemove[j + 1][i] = true;
+                    toRemove[j + 1][i + 1] = true;
                 }
             }
         }
         
-        if (delete.isEmpty()) {
-            return answer;
+        for (int y = 0; y < n; y++) {
+            for (int x = 0; x < m; x++) {
+                if (toRemove[y][x]) {
+                    board[y][x] = '-';
+                    answer++;
+                }
+            }
         }
-        answer += delete.size();
-        
-        for (List<Integer> yx : delete) {
-            board[yx.get(0)][yx.get(1)] = '-';
-        }
-        
         
         for (int y = 0; y < board.length; y++) {
             char[] b = board[y];
@@ -59,7 +58,8 @@ class Solution {
                 board[y][i] = s.charAt(i);
             }                        
         }
-        return answer + remove(board);
+        
+        return answer == 0 ? 0 : answer + remove(board);
         
     }
     
