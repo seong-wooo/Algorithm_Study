@@ -8,19 +8,12 @@ def solution(str1, str2):
     if not d1 and not d2:
         return 65536
         
-    union = 0
-    inters = 0
+    k1 = set(d1.keys())  
+    k2 = set(d2.keys())  
     
-    for k in d1:
-        if k in d2:
-            inters += min(d1[k], d2[k])
-            d2[k] = max(d1[k], d2[k])
-        else:
-            union += d1[k]
+    inters, union = k1&k2, k1|k2
     
-    union += sum(d2.values())
-    return (65536 * inters) // union
-    
+    return (65536 * sum([min(d1[k],d2[k]) for k in inters])) // sum(max(d1[k], d2[k]) for k in union)
     
     
     
