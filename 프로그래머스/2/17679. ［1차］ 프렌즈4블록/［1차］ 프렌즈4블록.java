@@ -40,23 +40,16 @@ class Solution {
             }
         }
         
-        for (int y = 0; y < board.length; y++) {
-            char[] b = board[y];
-            StringBuilder sb = new StringBuilder();
-            
-            for (char c : b) {
-                sb.append(c);    
+        for (int y = 0; y < n; y++) {
+            int idx = m - 1;
+            char[] row = new char[m];
+            for (int x = m - 1; x > -1; x--) {
+                if (board[y][x] != '-') {
+                    row[idx--] = board[y][x];
+                }
             }
-            
-            String s = Arrays.stream(sb.toString()
-                          .split("-"))
-                .collect(Collectors.joining());
-            
-            s = "-".repeat(m - s.length()) + s;
-            
-            for (int i = 0; i < m; i++) {
-                board[y][i] = s.charAt(i);
-            }                        
+            Arrays.fill(row, 0, idx + 1, '-');
+            board[y] = row;       
         }
         
         return answer == 0 ? 0 : answer + remove(board);
