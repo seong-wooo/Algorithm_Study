@@ -8,13 +8,8 @@ def solution(n, t, m, p):
         base += toN(num, n)
         num += 1
     
-    answer =""
-    for i in range(0, max_length, m):
-        answer += base[i:i+m][p-1]
+    return base[p-1::m][:t]
 
-    return answer        
-        
-        
 
 def toN(num, n):
     a = [str(i) for i in range(16)]
