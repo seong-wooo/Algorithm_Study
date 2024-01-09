@@ -1,33 +1,25 @@
 import java.util.*;
-import java.util.stream.*;
 import java.util.regex.*;
 
 class Solution {
     public String[] solution(String[] files) {
-        return Arrays.stream(files)
-            .map(File::new)
-            .sorted(Comparator.comparing((File a) -> a.head.toLowerCase()).thenComparingInt((a) -> Integer.parseInt(a.number)))
-            .map(File::toString)
-            .toArray(String[]::new);
-    }
-    
-    static class File {
-        static final Pattern pattern = Pattern.compile("(\\D+)(\\d+)(.*)");
-        String head;
-        String number;
-        String tail;
+        Pattern pattern = Pattern.compile("(\\D+)(\\d+)(.*)");
         
-        public File(String file) {
-            Matcher matcher = pattern.matcher(file);
-            if (matcher.find()) {
-                this.head = matcher.group(1);
-                this.number = matcher.group(2);
-                this.tail = matcher.group(3);   
+        Arrays.sort(files, (a, b) -> {
+            Matcher ma = pattern.matcher(a.toLowerCase());    
+            Matcher mb = pattern.matcher(b.toLowerCase());    
+            ma.find();
+            mb.find();
+            
+            if (!ma.group(1).equals(mb.group(1)) ) {
+                return ma.group(1).compareTo(mb.group(1));
             }
-        }
+            if (!ma.group(2).equals(mb.group(2))) {
+                return Integer.parseInt(ma.group(2)) - Integer.parseInt(mb.group(2));
+            }
+            return 0;
+        });
         
-        public String toString() {
-            return this.head + this.number + this.tail;
-        }
+        return files;
     }
 }
