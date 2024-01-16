@@ -3,15 +3,9 @@ def solution(n, s):
         return [-1]
     
     c = s // n
-    result = [c] * n
     s = s % n
+    return [c] * (n - s) + [c+1] * s
+
     
-    j = n - 1
-    while s > 0:
-        result[j] += 1
-        j -= 1
-        s -= 1
-        
-    return result
     
     
