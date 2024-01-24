@@ -1,6 +1,3 @@
-# 각 행에 하나씩
-
-
 def solution(n):
 
     return queen([], n)
@@ -25,4 +22,3 @@ def queen(before, n):
             valid[left] = 0
     
     return sum(queen(before + [i], n) for i in range(len(valid)) if valid[i])
-        
