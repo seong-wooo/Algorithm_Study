@@ -1,8 +1,7 @@
 def solution(phone_book):
     s = set()
-    phone_book.sort(key = lambda x : len(x))
     
-    for p in phone_book:
+    for p in sorted(phone_book, key=lambda x : len(x)):
         for i in range(1, len(p) + 1):
             if p[:i] in s:
                 return False
