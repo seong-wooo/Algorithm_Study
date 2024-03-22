@@ -4,10 +4,10 @@ def solution(n, wires):
         cut_wires = wires[:i] + wires[i+1:]
         nodes = set(cut_wires[0])
         for _ in cut_wires:
-            for cw in cut_wires:
-                cw = set(cw)
-                if nodes & cw:
-                    nodes.update(cw)
+            for wire in cut_wires:
+                if wire[0] in nodes or wire[1] in nodes:
+                    nodes.update(wire)
         result = min(result, abs(n - 2 * len(nodes)))
-    return result
                 
+    return result
+    
