@@ -1,10 +1,14 @@
 def solution(board):
-    dp = [[0] * (len(board[0]) + 1) for _ in range(len(board) + 1)]
+    
+    for j in range(1, len(board)):
+        for i in range(1, len(board[0])):
+            if board[j][i] != 0:
+                board[j][i] += min(board[j-1][i], board[j][i-1], board[j-1][i-1])
     
     answer = 0
+    
+    for b in board:
+        answer = max(answer, max(b))
+    
 
-    for y in range(len(board)):
-        for x in range(len(board[0])):
-            dp[y+1][x+1] = 0 if board[y][x] == 0 else board[y][x] + min(dp[y][x], dp[y][x+1], dp[y+1][x])
-            answer = max(dp[y+1][x+1], answer)
     return answer ** 2
