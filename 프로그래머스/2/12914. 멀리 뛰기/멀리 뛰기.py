@@ -1,13 +1,7 @@
-import sys
-
-def solution(n):    
-    sys.setrecursionlimit(10**6)
-    return do(n, [1] * 2 + [0] * (n-1))
+def solution(n):
+    a, b = 1, 2
     
-def do(n, dp):
-    if dp[n] > 0:
-        return dp[n]
+    for _ in range(n-1):
+        a, b = b, (a+b) % 1234567
     
-    dp[n] = (do(n-1, dp) + do(n-2, dp)) % 1234567
-    
-    return dp[n] 
+    return a
