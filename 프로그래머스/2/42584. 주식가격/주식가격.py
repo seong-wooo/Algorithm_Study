@@ -1,19 +1,20 @@
 from collections import deque
 
-
 def solution(prices):
-    stack = deque()
+    q = deque()
     
     answer = [0] * len(prices)
     
-    for i, x in enumerate(prices):
-        while stack and stack[-1][0] > x:
-            bx, bi = stack.pop()
-            answer[bi] = i - bi
-        stack.append((x, i))
+    # 값, index
+    for i in range(len(prices)):
+        while q and q[-1][0] > prices[i]:
+            price, index = q.pop()
+            answer[index] = i - index
+        q.append([prices[i], i])
+
     
-    for x, i in stack: 
-        answer[i] = len(prices) - i - 1
+    while q:
+        index = q.popleft()[1]
+        answer[index] = len(prices) - 1 - index
         
     return answer
-                
