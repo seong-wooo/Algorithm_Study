@@ -1,24 +1,27 @@
 def solution(n):
-
-    return queen([], n)
-        
-
-
-def queen(before, n):
-    if len(before) == n:
+    return dfs([], n)
+    
+    
+def dfs(arr, n):
+    answer = 0
+    
+    if len(arr) == n:
         return 1
     
-    current = len(before)
-    valid = [1] * n
-    for b in before:
-        valid[b] = 0
-
-    for i in range(len(before)):
-        right = before[i] + current - i
-        left = before[i] - current + i
-        if right < n:
-            valid[right] = 0
-        if 0 <= left:
-            valid[left] = 0
+    s = set(range(n))
+    row = len(arr)
     
-    return sum(queen(before + [i], n) for i in range(len(valid)) if valid[i])
+    for i in range(row):
+        s.discard(arr[i])
+        s.discard(arr[i] - row + i)
+        s.discard(arr[i] + row - i)
+    
+    
+    for location in s:
+        arr.append(location)
+        answer += dfs(arr, n)
+        arr.pop()
+        
+    return answer
+    
+        
