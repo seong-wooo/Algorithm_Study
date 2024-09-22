@@ -1,12 +1,12 @@
 from collections import deque
 
-
 def solution(s):
-    q = deque()
+    stack = deque()
     
     for c in s:
-        if q and q[-1] == c:
-            q.pop()
+        if stack and stack[-1] == c:
+            stack.pop()
         else:
-            q.append(c)
-    return 1 if not q else 0
+            stack.append(c)
+  
+    return 0 if stack else 1
