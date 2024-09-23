@@ -1,21 +1,18 @@
-import math
-from collections import deque
-
-
 def solution(progresses, speeds):
-
-    p = deque(math.ceil((100 - progresses[i]) / speeds[i]) for i in range(len(progresses)))
-
+    index = 0
     answer = []
-    while p:
-        result = 1
-        d = p.popleft()
+    
+    while index < len(progresses):
+        for i in range(index, len(progresses)):
+            progresses[i] += speeds[i]
         
-        while p and d >= p[0]:
-            p.popleft()
-            result += 1
-        answer.append(result)
+        new_index = index
+        while new_index < len(progresses) and progresses[new_index] >= 100:
+            new_index += 1
+         
+
+        if new_index != index:
+            answer.append(new_index - index)
+        index = new_index
         
     return answer
-        
-    
