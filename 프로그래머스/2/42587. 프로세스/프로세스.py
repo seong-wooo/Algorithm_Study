@@ -1,22 +1,17 @@
-import heapq as hq
 from collections import deque
+def solution(priorities, location):
+    
+    
+    s_p = deque(sorted(priorities, reverse=True))
+    
+    
+    priorities = list(enumerate(priorities))
 
-def solution(p, l):
-    a = [-x for x in p]
-    
-    hq.heapify(a)
-
-    p = deque([(x, i) for i, x in enumerate(p)])
-    
-    answer = 1
-    while p:
-        if p[0][0] == -a[0]:
-            t = p.popleft()
-            if t[1] == l:
-                return answer
-            hq.heappop(a)
-            answer += 1
-        else:
-            p.append(p.popleft())
-    
-    return answer
+    answer = 0
+    while True:
+        for i in range(len(priorities)):
+            if priorities[i][1] == s_p[0]:
+                s_p.popleft()
+                answer += 1
+                if priorities[i][0] == location:
+                    return answer
