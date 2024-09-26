@@ -1,11 +1,9 @@
 from itertools import product
 
 def solution(word):
-    result = []
+    a = []
     for i in range(1, 6):
-        for p in product("AEIOU", repeat = i):
-            result.append("".join(p))
+        a += list(map(lambda x: ''.join(x), product(['A','E','I','O','U'], repeat=i)))
     
-    result.sort()
-    
-    return result.index(word) + 1
+
+    return sorted(a).index(word) + 1
