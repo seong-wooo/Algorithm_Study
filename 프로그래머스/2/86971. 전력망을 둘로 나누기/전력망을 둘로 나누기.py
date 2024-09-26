@@ -1,13 +1,27 @@
+from collections import defaultdict
+
 def solution(n, wires):
-    result = n
-    for i in range(len(wires)):
-        cut_wires = wires[:i] + wires[i+1:]
-        nodes = set(cut_wires[0])
-        for _ in cut_wires:
-            for wire in cut_wires:
-                if wire[0] in nodes or wire[1] in nodes:
-                    nodes.update(wire)
-        result = min(result, abs(n - 2 * len(nodes)))
-                
-    return result
+
+    graph = defaultdict(list)
     
+    for a, b in wires:
+        graph[a].append(b)
+        graph[b].append(a)
+
+    visited = [False] * (n+1)
+    children = [0] * (n + 1)
+    
+    find_children(1, children, visited, graph)
+
+    return min(abs(n - 2 *(children[i] + 1)) for i in range(1, n+1))
+
+    
+def find_children(node, children, visited, graph):
+    visited[node] = True
+    result = 0
+    for next_node in graph[node]:
+        if not visited[next_node]:
+            result += 1 + find_children(next_node, children, visited, graph)
+
+    children[node] = result
+    return result
