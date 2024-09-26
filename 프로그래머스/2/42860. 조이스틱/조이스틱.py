@@ -1,29 +1,31 @@
+# A 덩어리를 찾는다.
+# A 덩어리를 기준으로 빠꾸할지, 직진할지 결정한다.
+# A 덩어리마다 계산을 해본다.
+
 def solution(name):
+    count = list(map(lambda x : min(ord(x) - ord('A'), ord('Z') - ord(x) + 1), list(name)))
+    answer = sum(count)
+    min_move = len(count) - 1
+    print(count)
     i = 0
-    total = sum(count(s) for s in name)
-    answer = len(name) - 1
-    
-    while i < len(name):
-        j = i + 1
-        while j < len(name) and name[j] == "A":
-            j += 1
-
-        if j == len(name):
-            answer = min(answer, i)
-        
-        else:
-            answer = min(answer, i * 2 + len(name) - j, (len(name) - j) * 2 + i)
-        
-        i = j
-
-    return answer + total
-
-
-#BBBBAAAABA
-# i, j 가 정해진 경우 -> 1. 그냥 직진 하는 경우 2. i만큼 갔다가 뒤로 빠꾸, j만큼 뒤로 갔다가 다시 i만큼 전진
-
+    while i < len(count):
+        if count[i] == 0:
+            j = i + 1
+            while j < len(count) and count[j] == 0:
+                j += 1
             
-
-def count(a):
-    n = ord(a)
-    return min(n - 65, 91 - n)
+            # move 할 수 있는 경우는 총 3가지
+            # 직진하기 / 앞으로 갔다가 뒤로 / 뒤로 갔다가 앞으로
+            
+            # 1. 직진하기
+            move = i - 1 if i > 0 else 0
+            move += min(move, len(count) - j)
+            move += len(count) - j
+            
+            min_move = min(min_move, move)
+            
+            
+            i = j - 1
+        i += 1
+        
+    return answer + min_move
