@@ -1,13 +1,17 @@
 from collections import deque
 
 def solution(number, k):
-    stack = deque()
+    q = deque()
     
-    for num in number:
-        while stack and stack[-1] < num and k > 0:
-            stack.pop()
+    i = 0
+    while k > 0 and i < len(number):
+        while q and number[i] > q[-1] and k > 0:
+            q.pop()
             k -= 1
-        stack.append(num)
+        q.append(number[i])
+        i += 1
     
-    return "".join(stack) if k == 0 else "".join(list(stack)[:-k])
-            
+    if k == 0:
+        return ''.join(q) + ''.join(number[i:])
+    
+    return ''.join(q)[:-k]
