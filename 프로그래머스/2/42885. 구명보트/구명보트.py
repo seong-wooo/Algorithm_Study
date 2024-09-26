@@ -1,14 +1,14 @@
-from collections import deque
-
 def solution(people, limit):
-    q = deque(sorted(people, reverse = True))
+    people.sort()
     
+    i = 0
+    j = len(people) - 1
     answer = 0
-    while q:
-        big = q.popleft()
-        
-        if q and big + q[-1] <= limit:
-            q.pop()
+    
+    while i <= j:
+        if people[i] + people[j] <= limit:
+            i += 1
         answer += 1
-        
+        j -= 1
+
     return answer
