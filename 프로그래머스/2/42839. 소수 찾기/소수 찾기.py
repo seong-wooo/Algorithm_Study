@@ -1,18 +1,18 @@
-from itertools import permutations as per
+from itertools import permutations
 
 def solution(numbers):
-    m = int("".join(sorted(list(numbers), reverse = True)))    
-    sosu = [False, False] + [True] * (m - 1)
-    for i in range(2, int(m ** 0.5) + 1): 
-        if sosu[i]:
-            sosu[i*2::i] = [False] * len(sosu[i*2::i])
-            
-    answer = 0
-    for j in range(1, len(numbers) + 1):
-        for p in per(numbers, j):
-            p = int("".join(p))
-            if sosu[int(p)]:
-                answer += 1
-                sosu[int(p)] = False
+    maximum = int(''.join(sorted(map(str, list(numbers)), reverse=True)))
     
-    return answer
+    sosu = [False, False] + [True] * (maximum - 1)
+
+    for i in range(2, int(maximum**0.5)+1):
+        if sosu[i]:
+            sosu[i*2:maximum + 1:i] = [False] * ((maximum - 2*i) // i + 1)
+    
+    
+    s = set()
+    for j in range(1, len(numbers) + 1):
+        s.update(map(lambda x : int(''.join(x)), permutations(list(numbers), j)))
+        
+
+    return sum(sosu[i] for i in s)
