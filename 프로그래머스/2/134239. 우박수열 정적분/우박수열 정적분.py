@@ -1,26 +1,25 @@
 def solution(k, ranges):
-    a = [k]
+    
+    nums = [k]
     
     while k > 1:
-        k = k // 2 if k % 2 == 0 else 3 * k + 1
-        a.append(k)
-    
-    
-    area = [0]
-    
-    for i in range(len(a) - 1):        
-        area.append(area[-1] + (a[i] + a[i + 1]) / 2)
-    
-    n = len(area) - 1
+        if k % 2 == 0:
+            k //= 2
+        else:
+            k *= 3
+            k += 1
+        nums.append(k)
     
     answer = []
-    for r in ranges:
-        left = r[0]
-        right = n + r[1]
-        
-        if left > right: 
+    for a, b in ranges:
+        b += len(nums) - 1    
+        if a > b:
             answer.append(-1)
             continue
-        answer.append(area[right] - area[left])
-    
+
+        result = 0
+        for i in range(a, b):
+            result += (nums[i] + nums[i+1]) / 2
+        answer.append(result)
+        
     return answer
