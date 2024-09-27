@@ -1,27 +1,24 @@
 from collections import deque
+
 def solution(order):
-    stack = deque()
+    q = deque([i for i in range(1, len(order) + 1)])
+    bozo_q = deque()
     
-    belt = deque([i for i in range(1, len(order) + 1)])
-    
-    answer = 0
-    i = 0
-    while i < len(order):
-        o = order[i]
-        if belt and belt[0] == o:
-            belt.popleft()
-            i += 1
-        elif stack and stack[-1] == o:
-            stack.pop()
-            i += 1
+    answer = 0 
+    for i in range(len(order)):
+        if bozo_q and bozo_q[-1] == order[i]:
+            bozo_q.pop()
+            answer += 1
+            continue
+        
+        while q and q[0] != order[i]:
+            bozo_q.append(q.popleft())
+            
+        if q and q[0] == order[i]:
+            q.popleft()
+            answer += 1
+        
         else:
-            if belt:
-                stack.append(belt.popleft())
-            else:
-                break
-        
-    return i
-        
+            break
     
-    
-    
+    return answer        
