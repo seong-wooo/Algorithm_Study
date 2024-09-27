@@ -1,23 +1,23 @@
 def solution(cards):
+    cards = [0] + cards
     visited = [False] * len(cards)
+    
+    i = 1
     groups = []
-    
-    
-    for i in range(len(visited)):
+    while i < len(cards):
         if not visited[i]:
-            group = 0
+            visited[i] = True
+            group = 1
             j = i
-            while not visited[j]:
+            while not visited[cards[j]]:
+                visited[cards[j]] = True
                 group += 1
-                visited[j] = True
-                j = cards[j] - 1
+                j = cards[j]
             groups.append(group)
+        i += 1
     
-    if len(groups) == 1:
-        return 0
-    
-    groups.sort(reverse = True)
-    
-    return groups[0] * groups[1]
-
-    
+    if len(groups) < 2:
+        return 0 
+    else:
+        groups.sort()
+        return groups[-1] * groups[-2]
