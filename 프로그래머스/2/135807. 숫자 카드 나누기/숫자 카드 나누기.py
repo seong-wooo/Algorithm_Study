@@ -1,29 +1,25 @@
 from math import gcd
-def solution(arrayA, arrayB):
-    gcd_a = arrayA[0]
-    for i in range(1, len(arrayA)):
-        gcd_a = gcd(gcd_a, arrayA[i])
-    
-    gcd_b = arrayB[0]
-    for i in range(1, len(arrayB)):
-        gcd_b = gcd(gcd_b, arrayB[i])
 
-    if gcd_a == gcd_b == 1:
-        return 0
+def solution(arrayA, arrayB):
+    # 각각의 최대 공약수를 구한다
     
-    answer = gcd_a
-    for b in arrayB:
-        if b % gcd_a == 0:
-            answer = 0
-            break
+    A = arrayA[0]
+    i = 1
+    while i < len(arrayA):
+        A = gcd(A, arrayA[i])
+        i += 1
     
-    if answer > gcd_b:
-        return answer
-    
-    answer = gcd_b
-    for a in arrayA:
-        if a % gcd_b == 0:
-            answer = 0
-            break
+    B = arrayB[0]
+    i = 1
+    while i < len(arrayB):
+        B = gcd(B, arrayB[i])
+        i += 1
         
+    answer = 0
+    if all(b % A != 0 for b in arrayB):
+        answer = max(answer, A)
+            
+    if all(a % B != 0 for a in arrayA):
+        answer = max(answer, B)
+    
     return answer
