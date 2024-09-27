@@ -1,22 +1,23 @@
 from collections import defaultdict
 
 def solution(topping):
-    left_counter = defaultdict(int)
-    right_counter = defaultdict(int)
+    chul = defaultdict(int)
+    bro = defaultdict(int)
     
-    left_counter[topping[0]] += 1
-    for i in range(1, len(topping)):
-        right_counter[topping[i]] += 1
-    
-
-    answer = 0
-    for i in range(1, len(topping)):
-        if len(left_counter) == len(right_counter):
+    for t in topping:
+        bro[t] += 1
+        
+    answer =0  
+    for i in range(len(topping) - 1):
+        chul[topping[i]] += 1
+        bro[topping[i]] -= 1
+        if bro[topping[i]] == 0:
+            del bro[topping[i]]
+        
+        if len(chul) == len(bro):
             answer += 1
-        
-        left_counter[topping[i]] += 1
-        right_counter[topping[i]] -= 1
-        if right_counter[topping[i]] == 0:
-            del right_counter[topping[i]]
-        
     return answer
+        
+    
+    
+    
