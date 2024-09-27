@@ -1,15 +1,17 @@
 def solution(elements):
-    for i in range(1, len(elements)):
-        elements[i] += elements[i - 1]
+    answer = set(elements)
     
-    elements = [0] + elements
+    i = 0 
     
-    answer = set()
-    
-    for left in range(len(elements) - 1):
-        for right in range(left + 1, len(elements)):
-            total = elements[right] - elements[left]
-            answer.add(total)
-            answer.add(elements[-1] - total)
-    
-    return len(answer) - 1
+    while i < len(elements):
+        current = elements[i]
+        answer.add(current)
+        j = (i + 1) % len(elements)
+        
+        while j != i:
+            current += elements[j]
+            answer.add(current)
+            j += 1
+            j %= len(elements)
+        i += 1
+    return len(answer)
