@@ -1,31 +1,28 @@
 def solution(sequence, k):
     answer = []
-    length = len(sequence)
     
-    left = 0
-    right = 0
-    current = sequence[0]
+    i = 0
+    j = 0
     
-    while right < len(sequence):
-        if current == k:
-            if length > right - left:
-                answer = [left, right]
-                length = right - left
-            current -= sequence[left]
-            left += 1
-            right += 1
-            if right < len(sequence):
-                current += sequence[right]
+    current = sequence[i]
+    
+    while i <= j and j < len(sequence):
+        if current > k:
+            current -= sequence[i]
+            i += 1 
             
-        elif current > k:
-            current -= sequence[left]
-            left += 1
+        elif current < k:
+            j += 1
+            if j < len(sequence):
+                current += sequence[j]
             
-        
         else:
-            right += 1
-            if right < len(sequence):
-                current += sequence[right]
+            if not answer or answer[1] - answer[0] > j - i:
+                answer = [i, j]
+                
+            current -= sequence[i]
+            i += 1
+
+        
     
     return answer
-        
