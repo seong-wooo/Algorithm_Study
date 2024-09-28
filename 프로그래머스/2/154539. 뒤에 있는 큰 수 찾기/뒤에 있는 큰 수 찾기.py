@@ -2,13 +2,12 @@ from collections import deque
 
 def solution(numbers):
     answer = [-1] * len(numbers)
-    stack = deque()
+    q = deque()
+    for i in range(len(numbers)):    
+        while q and q[-1][0] < numbers[i]:
+            value, index = q.pop()
+            answer[index] = numbers[i]
+        
+        q.append((numbers[i], i))
     
-    for index, num in enumerate(numbers):
-        
-        while stack and numbers[stack[-1]] < num:
-            answer[stack.pop()] = num
-        stack.append(index);
-        
-        
     return answer
