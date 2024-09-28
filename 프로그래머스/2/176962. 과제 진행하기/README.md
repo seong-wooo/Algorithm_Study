@@ -1,10 +1,10 @@
 # [level 2] 과제 진행하기 - 176962 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/176962?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/176962?language=python3) 
 
 ### 성능 요약
 
-메모리: 82.2 MB, 시간: 12.76 ms
+메모리: 10.7 MB, 시간: 1.82 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 3일 13:51:50
+2024년 09월 29일 02:57:55
 
 ### 문제 설명
 
