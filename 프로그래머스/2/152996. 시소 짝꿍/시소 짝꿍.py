@@ -1,25 +1,19 @@
 from collections import Counter
 
+
 def solution(weights):
-    
-    d = Counter(weights)
-    
+    c = Counter(weights)
     answer = 0
-    for key in d.keys():
-        answer += d[key] * (d[key] - 1) // 2
-        if key * 3 / 2 in d:
-            answer += d[key] * d[key * 3 / 2]
+    for key in c:
+        answer += (c[key] * (c[key] - 1)) // 2
         
-        if key * 2 in d:
-            answer += d[key] * d[key * 2]
+        if key*2/3 in c:
+            answer += c[key] * c[key*2/3]
         
-        if key * 4 / 3 in d:
-            answer += d[key] * d[key * 4 / 3]
-    
-    return answer
+        if key*2 in c:
+            answer += c[key] * c[key*2]
         
+        if key*3/4 in c:
+            answer += c[key] * c[key*3/4]
         
-        
-        
-    
     return answer
