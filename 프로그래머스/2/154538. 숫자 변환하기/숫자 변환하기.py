@@ -1,23 +1,27 @@
 def solution(x, y, n):
-    inf = 1e9
-    answer = [inf] * (y + 1)
+    all = set()
+    all.add(x)    
+    answer = 0
     
-    answer[x] = 0
+    s = set()
+    s.add(x)
     
-    for k in range(x+1, y+1):
-        minimum = inf
+    while s:
+        if y in s:
+            return answer
         
-        if k >= n and answer[k - n] != inf:
-            minimum = min(minimum, answer[k - n] + 1)
+        round = set()
+        for num in s:
+            for j in [num + n, num * 2, num * 3]:
+                if j <= y and j not in all:
+                    round.add(j)
+                    all.add(j)
+        answer += 1
+        s = round
         
-        if (k / 2) % 1 == 0 and answer[k // 2] != inf:
-            minimum = min(minimum, answer[k // 2] + 1)
+    return -1
         
-        if (k / 3) % 1 == 0 and answer[k // 3] != inf:
-            minimum = min(minimum, answer[k // 3] + 1)
             
-        answer[k] = minimum
-        
-    return answer[y] if answer[y] != inf else -1
-        
-        
+            
+    
+    
