@@ -1,18 +1,20 @@
-import math
+from math import sqrt, ceil
 
 def solution(r1, r2):
-    answer = 0
-    r12 = r1 ** 2
-    r22 = r2 ** 2
-
+    answer = r2 - r1 + 1
+    r22 = r2*r2
+    r12 = r1*r1
+    
     for x in range(1, r1):
-        x2 = x ** 2
-        r1_max = math.sqrt(r12 - x2)
-        r1_max = r1_max - 1 if r1_max % 1 == 0 else int(r1_max)
-        answer += int(math.sqrt(r22 - x2)) - r1_max
+        x2 = x*x
+        answer += int(sqrt(r22 - x2)) - ceil(sqrt(r12 - x2)) + 1
+    
     
     for x in range(r1, r2):
-        answer += int(math.sqrt(r22 - x ** 2))
+        x2 = x*x
+        answer += int(sqrt(r22 - x2))
     
-    answer *= 4
-    return answer + (r2 - r1 + 1) * 4
+    return answer * 4
+        
+    
+    
