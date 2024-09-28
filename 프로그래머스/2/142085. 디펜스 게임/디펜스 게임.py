@@ -1,23 +1,17 @@
-import heapq
+from heapq import heappush, heappop
 
 def solution(n, k, enemy):
-    
     q = []
+    current = 0
     
     for i in range(len(enemy)):
-        if k > 0:
-            heapq.heappush(q, enemy[i])
-            k -= 1
-            continue
-
-        if n < q[0] and n < enemy[i]:
-            return i 
+        current += enemy[i]
+        heappush(q, -enemy[i])
         
-        if q[0] < enemy[i]:
-            n -= heapq.heappop(q)
-            heapq.heappush(q, enemy[i])
-            
-        else:
-            n -= enemy[i]
-    
+        if current > n:
+            if k > 0:
+                current += heappop(q)
+                k -= 1
+            else:
+                return i
     return len(enemy)
