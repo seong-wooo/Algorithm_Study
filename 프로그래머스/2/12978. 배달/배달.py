@@ -1,27 +1,29 @@
+from heapq import heappush, heappop
 from collections import defaultdict
-import heapq
 
 def solution(N, road, K):
     graph = defaultdict(list)
+    
+    for a,b,c in road:
+        graph[a].append((b,c))
+        graph[b].append((a,c))
+        
+    distance = [K+1] * (N+1)
+    distance[1] = 0
     q = []
-    for a, b, c in road:
-        if c <= K:
-            graph[a].append((b, c))
-            graph[b].append((a, c))
+    
+    
+    for next_node, next_distance in graph[1]:
+        heappush(q, (next_distance, next_node))
         
-    INF = 1e9
-    distance = [0, 0] + [INF] * (N - 1)
-    
-    for b, c in graph[1]:
-        heapq.heappush(q, (c, b))
-    
     while q:
-        c, b = heapq.heappop(q)
+        dist, node = heappop(q)
         
-        if distance[b] > c:
-            distance[b] = c
-            
-            for next_node, next_distance in graph[b]:
-                heapq.heappush(q, (c+next_distance, next_node))
+        if distance[node] > dist:
+            distance[node] = dist
 
-    return len([d for d in distance if d<=K]) - 1
+            for next_node, next_dist in graph[node]:
+                if distance[next_node] > dist + next_dist:
+                    heappush(q, (dist + next_dist, next_node))
+        
+    return sum(1 for d in distance if K >= d)
