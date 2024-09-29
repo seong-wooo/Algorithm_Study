@@ -1,24 +1,25 @@
 def solution(msg):
-    d = {chr(a): a - 64 for a in range(65, 91)}
-    left = 0
-    next_index = 27
-    answer = []
-    while left < len(msg):
-        right = left + 1 # right : 포함되지 않은 index
-        while right <= len(msg) and msg[left:right] in d:
-            right += 1
+    index = 1
+    d = dict()
     
-        if right == len(msg) + 1:
-            answer.append(d[msg[left:]])
-            return answer
-             
-        d[msg[left:right]] = next_index
-        next_index += 1
-        answer.append(d[msg[left:right-1]])
-        left = right - 1
+    for a in range(ord('A'), ord('Z') + 1):
+        d[chr(a)] = index
+        index += 1
+    
+    answer = []
+    i = 0
+    while i < len(msg):
+        j = i + 1
+        while j <= len(msg) and msg[i:j] in d:
+            j += 1    
         
-    return answer  
+        if j > len(msg):
+            return answer + [d[msg[i:]]]
         
+        d[msg[i:j]] = index
+        index += 1
         
-        
-        
+        answer.append(d[msg[i:j-1]])
+        i = j - 1
+    return answer
+    
