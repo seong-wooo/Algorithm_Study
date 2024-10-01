@@ -1,20 +1,22 @@
 def solution(record):
-    d = dict()
-    mention = ["님이 나갔습니다.", "님이 들어왔습니다."]
+
     answer = []
+    name = {}
+    
     for r in record:
-        s = r.split()
+        command, *uid = r.split()
+
+        if command == "Change":
+            name[uid[0]] = uid[1]
         
-        if s[0] == "Leave":
-            answer.append([s[1], 0])
-        
-        else:
-            d[s[1]] = s[2]
-            if s[0] == "Enter":
-                answer.append([s[1], 1])
+        if command == "Enter":
+            name[uid[0]] = uid[1]
+            answer.append((uid[0], "님이 들어왔습니다."))
+            
+        elif command == "Leave":
+            answer.append((uid[0], "님이 나갔습니다."))
     
 
-    return [d[k] + mention[v] for k, v in answer]
+    return list(map(lambda x: name[x[0]] + x[1], answer))
         
-        
-        
+         
