@@ -1,34 +1,33 @@
 from itertools import combinations
 
 def solution(relation):
-    column = [j for j in range(len(relation[0]))]
-    answer = set()
     
-    for i in range(1, len(relation[0]) + 1):
-        for comb in combinations(column, i):
-            if not issuperset(comb, answer) and isprimarykey(relation, comb):
-                answer.add(tuple(comb))
-                
-    return len(answer)
-                
-                
+    answer = set()
+    index = [i for i in range(len(relation[0]))]
+    
+    
+    for count in range(1, len(relation) + 1):
+        for c in combinations(index, count):
+            if isIn(answer, c):
+                continue
+                    
+            
+            
+            s = set()
+            for j in range(len(relation)):
+                s.add(tuple(relation[j][k] for k in c))
+            
+            
+            if len(s) == len(relation):
+                answer.add(c)
 
-def issuperset(comb, answer):
+    return len(answer)
+            
+                    
+def isIn(answer, c):
+    c = set(c)
     for a in answer:
-        if set(a).issubset(set(comb)):
+        a = set(a)
+        if a & c == a:
             return True
     return False
-                    
-                    
-def isprimarykey(relation, comb):
-    keys = set()
-    for row in relation:
-        t = [row[i] for i in comb]
-        for key in keys:
-            if list(key) == t:
-                return False
-            
-        keys.add(tuple(t))
-    return True
-                
-
