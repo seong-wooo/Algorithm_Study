@@ -1,28 +1,27 @@
-from collections import defaultdict
 from itertools import combinations
+from collections import defaultdict
 
 def solution(orders, course):
-    d = [defaultdict(int) for _ in range(len(course))]
+    
+    d = [defaultdict(int) for _ in range(course[-1] + 1)]
     
     for order in orders:
-        for i in range(len(course)):
-            for comb in combinations(order, course[i]):
-                d[i]["".join(sorted(comb))] += 1
+        for c in course:
+            if c <= len(order):
+                for a in combinations(sorted(list(order)), c):
+                    d[c][a] += 1
     
-    answer = []
-    for menu in d: 
-        answer += find_max(menu)
-
+    answer =[]
+    for c in course:
+        if d[c]:
+            max_val = max(d[c].values())
+            if max_val >= 2:
+                answer += ["".join(k) for k in d[c].keys() if d[c][k] == max_val]
+    
     return sorted(answer)
+        
+        
 
 
-def find_max(menu):
-    if not menu:
-        return []
-    m = max(menu, key = lambda x : menu[x])
-    
-    if menu[m] < 2:
-        return []
-    
-    print(menu)
-    return [k for k in menu if menu[k] == menu[m]]
+        
+        
