@@ -1,10 +1,9 @@
 import re
 from collections import Counter
+
 def solution(s):
-    c = Counter()
+
+    c = Counter(re.findall("\d+", s))
     
-    for x in map(lambda x: x.split(","), re.split("},{", s[2:-2])):
-        c += Counter(x)
-    
-    return list(map(int, sorted(c.keys(), key=lambda x: -c[x])))
+    return list(map(int, sorted(c.keys(), key = lambda x : c[x], reverse =True)))
     
