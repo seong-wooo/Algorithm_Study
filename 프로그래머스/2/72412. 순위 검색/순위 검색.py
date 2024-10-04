@@ -1,58 +1,25 @@
 from collections import defaultdict
-from itertools import product
 from bisect import bisect_left
+import re
 
-def solution(info, query):
-    change = {
-        "cpp": "0",
-        "java": "1",
-        "python": "2",
-        "backend" : "0",
-        "frontend" : "1", 
-        "junior" : "0",
-        "senior" : "1",
-        "chicken" : "0",
-        "pizza" : "1"
-    }
+def solution(infos, query):
+    data = defaultdict(list)
     
-    d = defaultdict(list)
+    for info in infos:
+        s_info = info.split(" ")
+        
+        for i in (s_info[0], "-"):
+            for j in (s_info[1], "-"):
+                for k in (s_info[2], "-"):
+                    for l in (s_info[3], "-"):
+                        data[(i,j,k,l)].append(int(s_info[4]))
+    for key in data:
+        data[key].sort()
     
-    for inf in info:
-        s = inf.split(" ")
-        d["".join(map(lambda x : change[x], s[:4]))].append(int(s[4]))
-    
-    for key in d:
-        d[key].sort()
-    
-    query = [q.replace(" and ", " ").split(" ") for q in query]
     answer = []
     for q in query:
-        key = "".join(map(lambda x: change[x] if x in change else x, q[:4]))
-        value = int(q[4])
-        
-        keys = find_keys(key, "")
-        result = 0
-        for key in keys:
-            if key in d:
-                result += len(d[key]) - bisect_left(d[key], value)
-                
-        answer.append(result)
+        s_q = re.split(" and | ", q)
+        scores = data[tuple(s_q[:4])]
+            
+        answer.append(len(scores) - bisect_left(scores, int(s_q[4])))
     return answer
-            
-            
-
-def find_keys(key, k):
-    if len(key) == len(k):
-        return [k]
-    
-    keys = []
-    next = len(k)
-    if key[next] == "-":
-        keys += find_keys(key, k + "0")
-        keys += find_keys(key, k + "1")
-        keys += find_keys(key, k + "2")
-        
-    else:
-        keys += find_keys(key, k + key[next])
-    
-    return keys
