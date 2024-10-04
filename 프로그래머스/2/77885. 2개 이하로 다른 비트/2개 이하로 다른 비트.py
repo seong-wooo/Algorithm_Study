@@ -1,17 +1,12 @@
-import sys
-
 def solution(numbers):
-    
-    return list(map(lambda x : find(x), numbers))
-    
+    return list(map(change, numbers))
 
-def find(x):
-    bx = bin(x)[2:]
-    result = int("10" + bx[1:], 2)
+def change(num):
+    if num % 2 == 0:
+        return num + 1
     
-    for i in range(len(bx)):
-        if bx[i] == "0":
-            result = min(result, int(bx[:i] + "1" + bx[i+1:], 2))
-            if i != len(bx) - 1:
-                result = min(result, int(bx[:i] + "10" + bx[i+2:], 2))
-    return result
+    b_num = "0" + bin(num)[2:]
+    
+    for i in range(len(b_num) - 2, -1, -1):
+        if b_num[i:i+2] == "01":
+            return int(b_num[:i] + "10" + b_num[i+2:], 2)
