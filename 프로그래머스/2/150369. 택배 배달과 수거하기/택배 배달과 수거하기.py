@@ -1,41 +1,42 @@
-def solution(cap, n, deliveries, pickups):        
-    d = n - 1
-    p = n - 1
-    
-    while d >= 0 and deliveries[d] == 0:
-        d -= 1
-    
-    while p >= 0 and pickups[p] == 0:
-        p -= 1
-        
+def solution(cap, n, deliveries, pickups):
+    d_end = len(deliveries) - 1
+    p_end = len(pickups) - 1
     
     answer = 0
-    while d >= 0 or p >= 0:
-        start_d = d
-        start_p = p
-        answer += (start_d + 1) * 2 if start_d > start_p else (start_p + 1) * 2
-        
-        c = cap
-        while d >= 0 and (c > 0 or deliveries[d] == 0):
-            if deliveries[d] > c:
-                deliveries[d] -= c
-                c = 0
-                
-            else:
-                c -= deliveries[d]
-                deliveries[d] = 0
-                d -= 1
-                
-        
-        c = cap
-        while p >= 0 and (c > 0 or pickups[p] == 0):
-            if pickups[p] > c:
-                pickups[p] -= c
-                c = 0
-                
-            else:
-                c -= pickups[p]
-                pickups[p] = 0
-                p -= 1
     
+    while d_end >= 0 or p_end >= 0:
+        round_d = 0
+        round_p = 0
+        
+        while d_end >= 0 and deliveries[d_end] == 0:
+            d_end -= 1
+        
+        move = d_end+1
+        
+        while p_end >= 0 and pickups[p_end] == 0:
+            p_end -= 1
+        
+        answer += max(move, p_end+1) * 2
+        
+        while d_end >= 0 and round_d < cap:
+            if round_d + deliveries[d_end] <= cap:
+                round_d += deliveries[d_end]
+                deliveries[d_end] = 0
+                d_end -= 1
+            else:
+                deliveries[d_end] -= cap-round_d
+                round_d += cap - round_d
+                
+        while p_end >= 0 and round_p < cap:
+            if round_p + pickups[p_end] <= cap:
+                round_p += pickups[p_end]
+                pickups[p_end] = 0
+                p_end -= 1
+            else:
+                pickups[p_end] -= cap-round_p
+                round_p += cap - round_p
+            
     return answer
+                
+    
+    
