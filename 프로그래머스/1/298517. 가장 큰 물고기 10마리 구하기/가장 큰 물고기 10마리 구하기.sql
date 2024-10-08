@@ -1,10 +1,4 @@
--- 코드를 작성해주세요
-
-select id, length
-from (
-    select ID, LENGTH
+select ID, LENGTH
     from FISH_INFO
-    order by length desc
+    order by 2 desc, 1
     limit 10
-) a
-order by 2 desc, 1
