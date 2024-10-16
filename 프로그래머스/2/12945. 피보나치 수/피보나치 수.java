@@ -3,10 +3,10 @@ class Solution {
         int a = 0;
         int b = 1;
         
-        for (int i = 0; i < n - 1; i++) {
-            int temp = b;
-            b = (a + b) % 1234567 ;
-            a = temp;
+        for (int i=2; i <= n; i++) {
+            int temp = a;
+            a = b;
+            b = (b + temp) % 1234567;
         }
         
         return b;
