@@ -1,23 +1,10 @@
 import java.util.*;
-import java.util.stream.*;
 
 class Solution {
     public String solution(String s) {
-        int[] nums = Arrays.stream(s.split(" "))
-            .mapToInt(Integer::valueOf)
-            .toArray();
-        int max = nums[0];
-        int min = nums[0];
+        String[] ss = s.split(" ");
+        Arrays.sort(ss, (a,b) -> Integer.valueOf(a) - Integer.valueOf(b));
         
-        for (int i = 0; i < nums.length; i++) {
-            if (max < nums[i]) {
-                max = nums[i];
-            }
-            if (min > nums[i]) {
-                min = nums[i];
-            }
-        }
-        
-        return String.format("%d %d", min, max);
+        return ss[0] + " " + ss[ss.length - 1];
     }
 }
