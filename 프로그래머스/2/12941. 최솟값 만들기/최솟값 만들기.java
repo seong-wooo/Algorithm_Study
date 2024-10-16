@@ -6,12 +6,10 @@ class Solution
     {
         Arrays.sort(A);
         Arrays.sort(B);
-        
-        int answer = 0;
+        int result = 0;
         for (int i = 0; i < A.length; i++) {
-            answer += A[i] * B[B.length - 1 - i];
+            result += A[i] * B[B.length - 1 - i];
         }
-        
-        return answer;
+        return result;
     }
 }
