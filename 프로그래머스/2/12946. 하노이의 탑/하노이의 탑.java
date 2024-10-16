@@ -1,21 +1,21 @@
 import java.util.*;
-import java.util.stream.*;
+
 
 class Solution {
     public int[][] solution(int n) {
-        return hanoi(1,3,n).stream().toArray(int[][]::new);
+        List<int[]> answer = new LinkedList<>();
+        hanoi(answer, n, 1, 3);
+        return answer.toArray(new int[0][]);       
     }
     
-    public List<int[]> hanoi(int a, int b, int n) {
-        if (n == 1) {
-            return List.of(new int[]{a, b});
+    
+    public void hanoi(List<int[]> answer, int n, int start, int end) {
+        if (n == 0) {
+            return;
         }
         
-        List<int[]> h = new ArrayList<>();
-        h.addAll(hanoi(a, 6-a-b, n-1));
-        h.addAll(hanoi(a, b, 1));
-        h.addAll(hanoi(6-a-b, b, n-1));
-        
-        return h;
+        hanoi(answer, n-1, start, 6-start-end);
+        answer.add(new int[]{start, end});
+        hanoi(answer, n-1, 6-start-end, end);
     }
 }
