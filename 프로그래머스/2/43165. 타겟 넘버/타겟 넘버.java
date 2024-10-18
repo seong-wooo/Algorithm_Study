@@ -1,13 +1,13 @@
 class Solution {
     public int solution(int[] numbers, int target) {
-        return exec(numbers, target, 0);
+        return calc(numbers, 0, target, 0);
     }
     
-    public int exec(int[] numbers, int target, int index) {
+    public int calc(int[] numbers, int index, int target, int current) {
         if (index == numbers.length) {
-            return target == 0 ? 1 : 0;
+            return current == target ? 1 : 0;
         }
         
-        return exec(numbers, target + numbers[index], index + 1) + exec(numbers, target - numbers[index], index + 1);
+        return calc(numbers, index + 1, target, current + numbers[index]) + calc(numbers, index + 1, target, current - numbers[index]);
     }
 }
