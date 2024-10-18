@@ -1,21 +1,24 @@
 import java.util.*;
-import java.util.stream.*;
 
 class Solution {
     public String solution(String number, int k) {
-        Deque<Character> stack = new LinkedList<>();
+        Deque<Character> stack = new ArrayDeque<>();
+            
+        stack.push(number.charAt(0));
         
-        for (char c : number.toCharArray()) {
-            while (!stack.isEmpty() && stack.peekLast() < c && k > 0) {
-                stack.pollLast();
+        for (int i = 1; i < number.length(); i++) {
+            while (!stack.isEmpty() && k > 0 && stack.peek() < number.charAt(i)) {
+                stack.pop();
                 k--;
             }
-            stack.addLast(c);
+            stack.push(number.charAt(i));
         }
-        String result = stack.stream()
-                .map(String::valueOf)
-                .collect(Collectors.joining());
+        StringBuilder sb = new StringBuilder();
+        while(!stack.isEmpty()) {
+            sb.append(stack.pop());
+        }
+        String answer = sb.reverse().toString();
         
-        return k == 0 ? result : result.substring(0, result.length() - k);
+        return k == 0 ? answer : answer.substring(0, answer.length() - k);
     }
 }
