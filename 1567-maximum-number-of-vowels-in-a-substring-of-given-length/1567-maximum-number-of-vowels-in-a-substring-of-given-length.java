@@ -2,12 +2,13 @@ class Solution {
     public int maxVowels(String s, int k) {
         int answer = 0;
         int current = 0;
+        char[] cs = s.toCharArray();
 
-        for (int i = 0; i < s.length(); i++) {
-            if (isVowel(s.charAt(i))) {
+        for (int i = 0; i < cs.length; i++) {
+            if (isVowel(cs[i])) {
                 current++;
             }
-            if (i >= k && isVowel(s.charAt(i - k))) {
+            if (i >= k && isVowel(cs[i - k])) {
                 current--;
             }
             answer = Math.max(current, answer);
