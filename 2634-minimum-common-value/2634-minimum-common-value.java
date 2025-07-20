@@ -3,17 +3,16 @@ class Solution {
         int left = 0;
         int right = 0;
 
-        while (left < nums1.length && right < nums2.length && nums1[left] != nums2[right]) { 
+        while (left < nums1.length && right < nums2.length) { 
+            if (nums1[left] == nums2[right]) {
+                return nums1[left];
+            }
             if (nums1[left] < nums2[right]) {
                 left++;
-            } else if(nums1[left] > nums2[right]) {
+            } else {
                 right++;
             }
-
-            if (left < nums1.length && right < nums2.length && nums1[left] == nums2[right]) {
-                break;
-            }
         }
-        return left < nums1.length && right < nums2.length && nums1[left] == nums2[right] ? nums1[left] : -1;
+        return -1;
     }
 }
