@@ -10,7 +10,7 @@ class Solution {
             if (i >= k && isVowel(s.charAt(i - k))) {
                 current--;
             }
-            answer = (int) Math.max(current, answer);
+            answer = Math.max(current, answer);
         }
 
         return answer;
