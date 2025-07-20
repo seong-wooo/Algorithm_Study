@@ -79,17 +79,20 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/seong-wooo/Algorithm_Study/tree/master/0283-move-zeroes) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 ## Hash Table
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/seong-wooo/Algorithm_Study/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 ## Binary Search
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 ## Stack
@@ -107,4 +110,16 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
+## Sorting
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
