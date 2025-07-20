@@ -3,25 +3,23 @@ class Solution {
         int answer = 0;
         int current = 0;
         char[] cs = s.toCharArray();
+        boolean[] vowel = new boolean[26];
+        vowel['a' - 'a'] = true;
+        vowel['e' - 'a'] = true;
+        vowel['i' - 'a'] = true;
+        vowel['o' - 'a'] = true;
+        vowel['u' - 'a'] = true;
 
         for (int i = 0; i < cs.length; i++) {
-            if (isVowel(cs[i])) {
+            if (vowel[cs[i] - 'a']) {
                 current++;
             }
-            if (i >= k && isVowel(cs[i - k])) {
+            if (i >= k && vowel[cs[i - k] - 'a']) {
                 current--;
             }
             answer = Math.max(current, answer);
         }
 
         return answer;
-    }
-
-    public boolean isVowel(char c) {
-        return c == 'a' 
-        || c == 'e'
-        || c == 'i' 
-        || c == 'o'
-        || c == 'u';
     }
 }
