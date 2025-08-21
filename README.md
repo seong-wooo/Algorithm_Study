@@ -57,6 +57,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/seong-wooo/Algorithm_Study/tree/master/0617-merge-two-binary-trees) |
 | [0687-longest-univalue-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0687-longest-univalue-path) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/seong-wooo/Algorithm_Study/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1254-deepest-leaves-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/1254-deepest-leaves-sum) |
 ## Binary Tree
@@ -70,6 +71,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/seong-wooo/Algorithm_Study/tree/master/0617-merge-two-binary-trees) |
 | [0687-longest-univalue-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0687-longest-univalue-path) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/seong-wooo/Algorithm_Study/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1254-deepest-leaves-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/1254-deepest-leaves-sum) |
 ## Two Pointers
@@ -176,6 +178,7 @@
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0784-insert-into-a-binary-search-tree) |
 ## Quickselect
 |  |
 | ------- |
