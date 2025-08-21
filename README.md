@@ -14,6 +14,7 @@
 | [0687-longest-univalue-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0687-longest-univalue-path) |
 | [0744-network-delay-time](https://github.com/seong-wooo/Algorithm_Study/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/seong-wooo/Algorithm_Study/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1092-maximum-difference-between-node-and-ancestor](https://github.com/seong-wooo/Algorithm_Study/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -54,6 +55,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/seong-wooo/Algorithm_Study/tree/master/0617-merge-two-binary-trees) |
 | [0687-longest-univalue-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0687-longest-univalue-path) |
+| [1092-maximum-difference-between-node-and-ancestor](https://github.com/seong-wooo/Algorithm_Study/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 ## Binary Tree
 |  |
 | ------- |
@@ -65,6 +67,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/seong-wooo/Algorithm_Study/tree/master/0617-merge-two-binary-trees) |
 | [0687-longest-univalue-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0687-longest-univalue-path) |
+| [1092-maximum-difference-between-node-and-ancestor](https://github.com/seong-wooo/Algorithm_Study/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 ## Two Pointers
 |  |
 | ------- |
