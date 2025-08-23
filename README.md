@@ -101,6 +101,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0383-ransom-note](https://github.com/seong-wooo/Algorithm_Study/tree/master/0383-ransom-note) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0953-reverse-only-letters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0953-reverse-only-letters) |
@@ -115,6 +116,7 @@
 | ------- |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
@@ -178,6 +180,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
+| [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 ## Design
@@ -227,4 +230,8 @@
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0908-middle-of-the-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0908-middle-of-the-linked-list) |
+## Greedy
+|  |
+| ------- |
+| [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 <!---LeetCode Topics End-->
