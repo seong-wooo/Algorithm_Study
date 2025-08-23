@@ -12,7 +12,10 @@ class Solution {
                 int[] b1 = bombs[j];
                 int[] b2 = bombs[i];
 
-                double distance = (double) (b1[0] - b2[0])*(b1[0] - b2[0]) + (double)(b1[1] - b2[1])*(b1[1] - b2[1]);
+                int dy = b1[0] - b2[0];
+                int dx = b1[1] - b2[1];
+
+                double distance = (double) dx*dx + (double) dy*dy;
 
                 if (distance <= (double) b1[2] * b1[2]) {
                     m.get(j).add(i);
