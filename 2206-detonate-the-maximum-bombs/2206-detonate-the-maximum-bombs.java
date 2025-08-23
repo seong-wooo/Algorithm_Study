@@ -12,13 +12,13 @@ class Solution {
                 int[] b1 = bombs[j];
                 int[] b2 = bombs[i];
 
-                double distance = Math.sqrt(((long) (b1[0] - b2[0]))*(b1[0] - b2[0]) + ((long)(b1[1] - b2[1]))*(b1[1] - b2[1]));
+                double distance = (double) (b1[0] - b2[0])*(b1[0] - b2[0]) + (double)(b1[1] - b2[1])*(b1[1] - b2[1]);
 
-                if (distance <= b1[2]) {
+                if (distance <= (double) b1[2] * b1[2]) {
                     m.get(j).add(i);
                 }
 
-                if (distance <= b2[2]) {
+                if (distance <= (double) b2[2] * b2[2]) {
                     m.get(i).add(j);
                 }
             }
