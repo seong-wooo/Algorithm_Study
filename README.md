@@ -18,6 +18,7 @@
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/seong-wooo/Algorithm_Study/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1254-deepest-leaves-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/1254-deepest-leaves-sum) |
 | [2121-find-if-path-exists-in-graph](https://github.com/seong-wooo/Algorithm_Study/tree/master/2121-find-if-path-exists-in-graph) |
+| [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Breadth-First Search
 |  |
@@ -32,6 +33,7 @@
 | [1254-deepest-leaves-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/1254-deepest-leaves-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/seong-wooo/Algorithm_Study/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2121-find-if-path-exists-in-graph](https://github.com/seong-wooo/Algorithm_Study/tree/master/2121-find-if-path-exists-in-graph) |
+| [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Graph
 |  |
@@ -39,6 +41,7 @@
 | [0744-network-delay-time](https://github.com/seong-wooo/Algorithm_Study/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/seong-wooo/Algorithm_Study/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2121-find-if-path-exists-in-graph](https://github.com/seong-wooo/Algorithm_Study/tree/master/2121-find-if-path-exists-in-graph) |
+| [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Heap (Priority Queue)
 |  |
@@ -119,6 +122,7 @@
 | [0695-max-area-of-island](https://github.com/seong-wooo/Algorithm_Study/tree/master/0695-max-area-of-island) |
 | [1833-find-the-highest-altitude](https://github.com/seong-wooo/Algorithm_Study/tree/master/1833-find-the-highest-altitude) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/seong-wooo/Algorithm_Study/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -164,6 +168,7 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
+| [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -212,4 +217,8 @@
 | ------- |
 | [0695-max-area-of-island](https://github.com/seong-wooo/Algorithm_Study/tree/master/0695-max-area-of-island) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/seong-wooo/Algorithm_Study/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+## Geometry
+|  |
+| ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 <!---LeetCode Topics End-->
