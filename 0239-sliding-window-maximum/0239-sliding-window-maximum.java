@@ -1,22 +1,21 @@
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        Queue<int[]> pq = new PriorityQueue<>(
-            (a, b) -> b[0] - a[0]
+        Queue<Integer> pq = new PriorityQueue<>(
+            (a, b) -> nums[b] - nums[a]
         );
 
         for (int i = 0; i < k; i++) {
-            pq.add(new int[]{nums[i], i});
+            pq.add(i);
         }
 
         List<Integer> answer = new ArrayList<>();
-        answer.add(pq.peek()[0]);
-        for (int i = k; i < nums.length; i++) {
-            while (!pq.isEmpty() && pq.peek()[1] <= i - k) {
+        for (int i = k - 1; i < nums.length; i++) {
+            while (!pq.isEmpty() && pq.peek() <= i - k) {
                 pq.poll();
             }
 
-            pq.add(new int[]{nums[i], i});
-            answer.add(pq.peek()[0]);
+            pq.add(i);
+            answer.add(nums[pq.peek()]);
         }
 
         return answer.stream().mapToInt(Integer::intValue).toArray();
