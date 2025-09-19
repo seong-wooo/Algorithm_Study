@@ -104,6 +104,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/seong-wooo/Algorithm_Study/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/seong-wooo/Algorithm_Study/tree/master/0383-ransom-note) |
@@ -161,6 +162,7 @@
 ## Stack
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
 | [2128-reverse-prefix-of-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/2128-reverse-prefix-of-word) |
 | [2470-removing-stars-from-a-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2470-removing-stars-from-a-string) |
 ## Sliding Window
