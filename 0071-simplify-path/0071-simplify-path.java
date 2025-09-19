@@ -6,9 +6,8 @@ class Solution {
 
         String[] answer = new String[sp.length];
         int index = 0;
-        
+
         for (String d : sp) {
-            System.out.println(d);
             if (d.equals(".")) {
                 continue;
             }
@@ -24,7 +23,7 @@ class Solution {
 
         StringBuilder sb = new StringBuilder();
 
-        for(int i = 0; i < index; i++) {
+        for (int i = 0; i < index; i++) {
             if (answer[i] != "") {
                 sb.append("/");
                 sb.append(answer[i]);
