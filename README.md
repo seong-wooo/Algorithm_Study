@@ -113,6 +113,7 @@
 | [1297-maximum-number-of-balloons](https://github.com/seong-wooo/Algorithm_Study/tree/master/1297-maximum-number-of-balloons) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/seong-wooo/Algorithm_Study/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1666-make-the-string-great](https://github.com/seong-wooo/Algorithm_Study/tree/master/1666-make-the-string-great) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/seong-wooo/Algorithm_Study/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2128-reverse-prefix-of-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/2128-reverse-prefix-of-word) |
 | [2470-removing-stars-from-a-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2470-removing-stars-from-a-string) |
@@ -163,6 +164,7 @@
 |  |
 | ------- |
 | [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
+| [1666-make-the-string-great](https://github.com/seong-wooo/Algorithm_Study/tree/master/1666-make-the-string-great) |
 | [2128-reverse-prefix-of-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/2128-reverse-prefix-of-word) |
 | [2470-removing-stars-from-a-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2470-removing-stars-from-a-string) |
 ## Sliding Window
