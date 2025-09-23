@@ -166,6 +166,7 @@
 |  |
 | ------- |
 | [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
+| [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [0937-online-stock-span](https://github.com/seong-wooo/Algorithm_Study/tree/master/0937-online-stock-span) |
 | [1666-make-the-string-great](https://github.com/seong-wooo/Algorithm_Study/tree/master/1666-make-the-string-great) |
@@ -209,6 +210,7 @@
 ## Design
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/seong-wooo/Algorithm_Study/tree/master/0303-range-sum-query-immutable) |
 | [0937-online-stock-span](https://github.com/seong-wooo/Algorithm_Study/tree/master/0937-online-stock-span) |
 ## Counting
@@ -263,6 +265,7 @@
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0239-sliding-window-maximum) |
 ## Monotonic Queue
 |  |
