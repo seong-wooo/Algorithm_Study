@@ -51,6 +51,7 @@
 | [0744-network-delay-time](https://github.com/seong-wooo/Algorithm_Study/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/seong-wooo/Algorithm_Study/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 ## Shortest Path
 |  |
 | ------- |
@@ -117,6 +118,7 @@
 | [1666-make-the-string-great](https://github.com/seong-wooo/Algorithm_Study/tree/master/1666-make-the-string-great) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/seong-wooo/Algorithm_Study/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2128-reverse-prefix-of-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/2128-reverse-prefix-of-word) |
+| [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 | [2470-removing-stars-from-a-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2470-removing-stars-from-a-string) |
 ## Array
 |  |
@@ -152,6 +154,7 @@
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [1297-maximum-number-of-balloons](https://github.com/seong-wooo/Algorithm_Study/tree/master/1297-maximum-number-of-balloons) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/seong-wooo/Algorithm_Study/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -220,6 +223,7 @@
 | ------- |
 | [0383-ransom-note](https://github.com/seong-wooo/Algorithm_Study/tree/master/0383-ransom-note) |
 | [1297-maximum-number-of-balloons](https://github.com/seong-wooo/Algorithm_Study/tree/master/1297-maximum-number-of-balloons) |
+| [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -265,6 +269,7 @@
 | ------- |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 ## Queue
 |  |
 | ------- |
