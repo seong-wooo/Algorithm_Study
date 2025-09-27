@@ -53,6 +53,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
+| [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 ## Shortest Path
 |  |
 | ------- |
@@ -120,6 +121,7 @@
 | [1960-check-if-the-sentence-is-pangram](https://github.com/seong-wooo/Algorithm_Study/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2128-reverse-prefix-of-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/2128-reverse-prefix-of-word) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
+| [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2470-removing-stars-from-a-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2470-removing-stars-from-a-string) |
 ## Array
 |  |
@@ -143,6 +145,7 @@
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/seong-wooo/Algorithm_Study/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
+| [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -216,6 +219,7 @@
 | [0242-valid-anagram](https://github.com/seong-wooo/Algorithm_Study/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 ## Design
 |  |
 | ------- |
@@ -235,6 +239,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -245,6 +250,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 ## Simulation
 |  |
 | ------- |
@@ -295,4 +301,8 @@
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/seong-wooo/Algorithm_Study/tree/master/0937-online-stock-span) |
+## Radix Sort
+|  |
+| ------- |
+| [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 <!---LeetCode Topics End-->
