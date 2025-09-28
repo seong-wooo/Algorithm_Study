@@ -56,6 +56,7 @@
 | [1955-seat-reservation-manager](https://github.com/seong-wooo/Algorithm_Study/tree/master/1955-seat-reservation-manager) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
+| [2413-smallest-number-in-infinite-set](https://github.com/seong-wooo/Algorithm_Study/tree/master/2413-smallest-number-in-infinite-set) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 ## Shortest Path
 |  |
@@ -168,6 +169,7 @@
 | [1297-maximum-number-of-balloons](https://github.com/seong-wooo/Algorithm_Study/tree/master/1297-maximum-number-of-balloons) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/seong-wooo/Algorithm_Study/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
+| [2413-smallest-number-in-infinite-set](https://github.com/seong-wooo/Algorithm_Study/tree/master/2413-smallest-number-in-infinite-set) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -237,6 +239,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/seong-wooo/Algorithm_Study/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/seong-wooo/Algorithm_Study/tree/master/0937-online-stock-span) |
 | [1955-seat-reservation-manager](https://github.com/seong-wooo/Algorithm_Study/tree/master/1955-seat-reservation-manager) |
+| [2413-smallest-number-in-infinite-set](https://github.com/seong-wooo/Algorithm_Study/tree/master/2413-smallest-number-in-infinite-set) |
 ## Counting
 |  |
 | ------- |
@@ -327,4 +330,8 @@
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
+## Ordered Set
+|  |
+| ------- |
+| [2413-smallest-number-in-infinite-set](https://github.com/seong-wooo/Algorithm_Study/tree/master/2413-smallest-number-in-infinite-set) |
 <!---LeetCode Topics End-->
