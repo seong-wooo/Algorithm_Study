@@ -1,12 +1,22 @@
 class Solution {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
+        int[] boxes = new int[1001];
         int result = 0;
-        for(int[] box : Arrays.stream(boxTypes).sorted(Comparator.comparingInt(a -> -a[1])).toList()) {
-            if (truckSize >= box[0]) {
-                truckSize -= box[0];
-                result += box[0] * box[1];
+
+        for (int[] type : boxTypes) {
+            boxes[type[1]] += type[0];
+        }
+
+        for (int i = 1000; i > 0; i--) {
+            if (boxes[i] == 0) {
+                continue;
+            }
+            
+            if (truckSize >= boxes[i]) {
+                truckSize -= boxes[i];
+                result += i * boxes[i];
             } else {
-                result += truckSize * box[1];
+                result += i * truckSize;
                 truckSize = 0;
             }
 
@@ -14,7 +24,6 @@ class Solution {
                 break;
             }
         }
-
 
         return result;
     }
