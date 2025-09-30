@@ -213,6 +213,7 @@
 | ------- |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
 | [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 ## Bit Manipulation
 |  |
@@ -297,6 +298,7 @@
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
+| [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 ## Queue
