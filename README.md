@@ -149,6 +149,7 @@
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/seong-wooo/Algorithm_Study/tree/master/0695-max-area-of-island) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [1833-find-the-highest-altitude](https://github.com/seong-wooo/Algorithm_Study/tree/master/1833-find-the-highest-altitude) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/seong-wooo/Algorithm_Study/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
@@ -231,6 +232,7 @@
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 ## Design
 |  |
@@ -299,6 +301,7 @@
 | ------- |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
+| [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 ## Queue
