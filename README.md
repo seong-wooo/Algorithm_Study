@@ -153,6 +153,7 @@
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/seong-wooo/Algorithm_Study/tree/master/0695-max-area-of-island) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
 | [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [1833-find-the-highest-altitude](https://github.com/seong-wooo/Algorithm_Study/tree/master/1833-find-the-highest-altitude) |
@@ -241,6 +242,7 @@
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
 | [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/seong-wooo/Algorithm_Study/tree/master/1961-maximum-ice-cream-bars) |
@@ -313,6 +315,7 @@
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
+| [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
 | [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
