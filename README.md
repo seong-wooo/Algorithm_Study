@@ -361,4 +361,8 @@
 |  |
 | ------- |
 | [1961-maximum-ice-cream-bars](https://github.com/seong-wooo/Algorithm_Study/tree/master/1961-maximum-ice-cream-bars) |
+## Backtracking
+|  |
+| ------- |
+| [0052-n-queens-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0052-n-queens-ii) |
 <!---LeetCode Topics End-->
