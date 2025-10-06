@@ -59,6 +59,7 @@
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 | [2413-smallest-number-in-infinite-set](https://github.com/seong-wooo/Algorithm_Study/tree/master/2413-smallest-number-in-infinite-set) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
+| [2479-meeting-rooms-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/2479-meeting-rooms-iii) |
 ## Shortest Path
 |  |
 | ------- |
@@ -163,6 +164,7 @@
 | [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
+| [2479-meeting-rooms-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/2479-meeting-rooms-iii) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Hash Table
@@ -181,6 +183,7 @@
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 | [2413-smallest-number-in-infinite-set](https://github.com/seong-wooo/Algorithm_Study/tree/master/2413-smallest-number-in-infinite-set) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
+| [2479-meeting-rooms-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/2479-meeting-rooms-iii) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Binary Search
@@ -247,6 +250,7 @@
 | [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/seong-wooo/Algorithm_Study/tree/master/1961-maximum-ice-cream-bars) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
+| [2479-meeting-rooms-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/2479-meeting-rooms-iii) |
 ## Design
 |  |
 | ------- |
@@ -287,6 +291,7 @@
 |  |
 | ------- |
 | [2470-removing-stars-from-a-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2470-removing-stars-from-a-string) |
+| [2479-meeting-rooms-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/2479-meeting-rooms-iii) |
 ## Union Find
 |  |
 | ------- |
