@@ -137,6 +137,7 @@
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2470-removing-stars-from-a-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2470-removing-stars-from-a-string) |
+| [2487-optimal-partition-of-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2487-optimal-partition-of-string) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Array
 |  |
@@ -189,6 +190,7 @@
 | [2413-smallest-number-in-infinite-set](https://github.com/seong-wooo/Algorithm_Study/tree/master/2413-smallest-number-in-infinite-set) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2479-meeting-rooms-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/2479-meeting-rooms-iii) |
+| [2487-optimal-partition-of-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2487-optimal-partition-of-string) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Binary Search
@@ -334,6 +336,7 @@
 | [1961-maximum-ice-cream-bars](https://github.com/seong-wooo/Algorithm_Study/tree/master/1961-maximum-ice-cream-bars) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
+| [2487-optimal-partition-of-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2487-optimal-partition-of-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Queue
