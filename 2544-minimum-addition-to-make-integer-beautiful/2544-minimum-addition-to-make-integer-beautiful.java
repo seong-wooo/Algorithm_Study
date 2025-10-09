@@ -18,7 +18,6 @@ class Solution {
                 nums[index + 1]++;
             }
             index++;
-            System.out.println(answer);
         }
         return answer;
     }
