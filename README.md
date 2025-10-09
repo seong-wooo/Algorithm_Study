@@ -69,6 +69,7 @@
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/seong-wooo/Algorithm_Study/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1081-video-stitching](https://github.com/seong-wooo/Algorithm_Study/tree/master/1081-video-stitching) |
 ## Tree
 |  |
 | ------- |
@@ -163,6 +164,7 @@
 | [0695-max-area-of-island](https://github.com/seong-wooo/Algorithm_Study/tree/master/0695-max-area-of-island) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
+| [1081-video-stitching](https://github.com/seong-wooo/Algorithm_Study/tree/master/1081-video-stitching) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
 | [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [1833-find-the-highest-altitude](https://github.com/seong-wooo/Algorithm_Study/tree/master/1833-find-the-highest-altitude) |
@@ -338,6 +340,7 @@
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
+| [1081-video-stitching](https://github.com/seong-wooo/Algorithm_Study/tree/master/1081-video-stitching) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/seong-wooo/Algorithm_Study/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
