@@ -241,6 +241,7 @@
 | [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
 | [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2279-maximum-split-of-positive-even-integers) |
+| [2544-minimum-addition-to-make-integer-beautiful](https://github.com/seong-wooo/Algorithm_Study/tree/master/2544-minimum-addition-to-make-integer-beautiful) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -349,6 +350,7 @@
 | [2475-largest-palindromic-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2475-largest-palindromic-number) |
 | [2487-optimal-partition-of-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2487-optimal-partition-of-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2544-minimum-addition-to-make-integer-beautiful](https://github.com/seong-wooo/Algorithm_Study/tree/master/2544-minimum-addition-to-make-integer-beautiful) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Queue
 |  |
