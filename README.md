@@ -239,6 +239,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
 | [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
+| [2279-maximum-split-of-positive-even-integers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2279-maximum-split-of-positive-even-integers) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -341,6 +342,7 @@
 | [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/seong-wooo/Algorithm_Study/tree/master/1961-maximum-ice-cream-bars) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2279-maximum-split-of-positive-even-integers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2279-maximum-split-of-positive-even-integers) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 | [2475-largest-palindromic-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2475-largest-palindromic-number) |
 | [2487-optimal-partition-of-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2487-optimal-partition-of-string) |
@@ -389,4 +391,5 @@
 |  |
 | ------- |
 | [0052-n-queens-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0052-n-queens-ii) |
+| [2279-maximum-split-of-positive-even-integers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2279-maximum-split-of-positive-even-integers) |
 <!---LeetCode Topics End-->
