@@ -237,6 +237,7 @@
 | ------- |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [1303-minimum-moves-to-reach-target-score](https://github.com/seong-wooo/Algorithm_Study/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
 | [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2279-maximum-split-of-positive-even-integers) |
@@ -336,6 +337,7 @@
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
+| [1303-minimum-moves-to-reach-target-score](https://github.com/seong-wooo/Algorithm_Study/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
 | [1782-smallest-string-with-a-given-numeric-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/1782-smallest-string-with-a-given-numeric-value) |
