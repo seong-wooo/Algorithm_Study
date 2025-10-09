@@ -1,67 +1,46 @@
 class Solution {
     public String largestPalindromic(String num) {
-        Map<Character, Integer> counter = new HashMap<>();
-        Queue<Character> q = new PriorityQueue<>();
+        int[] nums = new int[10];
 
         for (char n : num.toCharArray()) {
-            if (!counter.containsKey(n)) {
-                q.add(n);
-                counter.put(n, 0);
-            }
-            counter.put(n, counter.get(n) + 1);
+            nums[n - 48]++;
         }
-
-        // 작은 순으로 꺼낸다.
-        // 만약 홀수라면 홀수 개수 제외하고 꺼낸다.
-        // 홀수 남은 수는 따로 보관 -> 
-        // 0 으로 시작하면 0 제거
         
         StringBuilder sb = new StringBuilder();
 
-        if (hadOddCount(counter)) {
-            sb.append(oddCountMaxNum(counter));
+        char result = findMaxOddNum(nums);
+
+        if (result != ' ') {
+            sb.append(result);
         }
 
-        while (!q.isEmpty()) {
-            char n = q.poll();
-            int p = counter.get(n) / 2;
-            String add = String.valueOf(n).repeat(p);
-
-            sb.insert(0, add);
-            sb.append(add);
+        for (int i = 0; i <= 9; i++) {
+            int count = nums[i] / 2;
+            String s = String.valueOf((char) (i + '0')).repeat(count);
+            sb.insert(0, s);
+            sb.append(s);
         }
 
         String answer = sb.toString();
 
         if (answer.startsWith("0")) {
-            String removeZero = answer.replaceAll("0", "");
-            if (removeZero.isEmpty()) {
+            String rz = answer.replace("0", "");
+            if (rz.isEmpty()) {
                 return "0";
-            } else { 
-                return removeZero;
             }
+            return rz;
         }
         return answer;
     }
+    
+    public char findMaxOddNum(int[] nums) {
 
-    public boolean hadOddCount(Map<Character, Integer> counter) {
-        for (char num : counter.keySet()){
-            if (counter.get(num) % 2 == 1) {
-                return true;
+        for (int i = nums.length -1 ; i >= 0; i--) {
+            if (nums[i] % 2 == 1) {
+                return (char) (i + '0');
             }
         }
 
-        return false;
-    }
-
-    public char oddCountMaxNum(Map<Character, Integer> counter) {
-        char result = '0';
-        for (char num : counter.keySet()){
-            if (counter.get(num) % 2 == 1 && result < num) {
-                result = num;
-            }
-        }
-
-        return result;
+        return ' ';
     }
 }
