@@ -180,6 +180,7 @@
 | [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/seong-wooo/Algorithm_Study/tree/master/2445-reachable-nodes-with-restrictions) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2479-meeting-rooms-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
@@ -213,6 +214,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 ## Stack
 |  |
@@ -240,6 +242,7 @@
 | [0303-range-sum-query-immutable](https://github.com/seong-wooo/Algorithm_Study/tree/master/0303-range-sum-query-immutable) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1833-find-the-highest-altitude](https://github.com/seong-wooo/Algorithm_Study/tree/master/1833-find-the-highest-altitude) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/2469-longest-subsequence-with-limited-sum) |
 ## Math
 |  |
 | ------- |
@@ -273,6 +276,7 @@
 | [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [1961-maximum-ice-cream-bars](https://github.com/seong-wooo/Algorithm_Study/tree/master/1961-maximum-ice-cream-bars) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2479-meeting-rooms-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Design
@@ -357,6 +361,7 @@
 | [2094-remove-stones-to-minimize-the-total](https://github.com/seong-wooo/Algorithm_Study/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2279-maximum-split-of-positive-even-integers) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2475-largest-palindromic-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2475-largest-palindromic-number) |
 | [2487-optimal-partition-of-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2487-optimal-partition-of-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2497-maximum-matching-of-players-with-trainers) |
