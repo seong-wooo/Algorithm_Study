@@ -71,6 +71,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
+| [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0747-min-cost-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/seong-wooo/Algorithm_Study/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1081-video-stitching](https://github.com/seong-wooo/Algorithm_Study/tree/master/1081-video-stitching) |
@@ -163,6 +164,7 @@
 | [0283-move-zeroes](https://github.com/seong-wooo/Algorithm_Study/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/seong-wooo/Algorithm_Study/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
+| [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
@@ -214,6 +216,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
+| [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/seong-wooo/Algorithm_Study/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/2469-longest-subsequence-with-limited-sum) |
@@ -242,6 +245,7 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/seong-wooo/Algorithm_Study/tree/master/0303-range-sum-query-immutable) |
+| [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1833-find-the-highest-altitude](https://github.com/seong-wooo/Algorithm_Study/tree/master/1833-find-the-highest-altitude) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/2469-longest-subsequence-with-limited-sum) |
@@ -351,6 +355,7 @@
 | [0011-container-with-most-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0011-container-with-most-water) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
+| [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1081-video-stitching](https://github.com/seong-wooo/Algorithm_Study/tree/master/1081-video-stitching) |
