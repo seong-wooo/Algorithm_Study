@@ -69,6 +69,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0005-longest-palindromic-substring) |
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
@@ -112,6 +113,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
@@ -131,6 +133,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0005-longest-palindromic-substring) |
 | [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
@@ -439,4 +442,8 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
