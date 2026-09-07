@@ -70,6 +70,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
@@ -116,6 +117,7 @@
 | [0005-longest-palindromic-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/seong-wooo/Algorithm_Study/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -163,6 +165,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -240,6 +243,7 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
 | [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
@@ -406,6 +410,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [0937-online-stock-span](https://github.com/seong-wooo/Algorithm_Study/tree/master/0937-online-stock-span) |
 ## Data Stream
