@@ -2,7 +2,7 @@ class Solution {
     List<List<Integer>> answer = new ArrayList<>();
 
     public List<List<Integer>> combine(int n, int k) {
-        dfs(n, k, new ArrayList<>());
+        dfs(n, k, new LinkedList<>());
         return answer;
     }
 
