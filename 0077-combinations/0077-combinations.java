@@ -6,15 +6,15 @@ class Solution {
         return answer;
     }
 
-    private void dfs(int n, int k, List<Integer> current) {
+    private void dfs(int n, int k, Deque<Integer> current) {
         if (current.size() == k) {
             answer.add(new ArrayList<>(current));
             return;
         }
 
 
-        for(int i = current.isEmpty() ? 1 : current.get(current.size() - 1) + 1; i <= n; i++) {
-            current.add(i);
+        for(int i = current.isEmpty() ? 1 : current.peekLast() + 1; i <= n; i++) {
+            current.offer(i);
             dfs(n, k, current);
             current.removeLast();
         }
