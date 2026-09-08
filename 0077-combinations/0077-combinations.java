@@ -16,7 +16,7 @@ class Solution {
         for(int i = current.isEmpty() ? 1 : current.get(current.size() - 1) + 1; i <= n; i++) {
             current.add(i);
             dfs(n, k, current);
-            current.remove(current.size() - 1);
+            current.removeLast();
         }
     }
 }
