@@ -8,6 +8,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/seong-wooo/Algorithm_Study/tree/master/0617-merge-two-binary-trees) |
@@ -25,6 +26,7 @@
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
 | [0617-merge-two-binary-trees](https://github.com/seong-wooo/Algorithm_Study/tree/master/0617-merge-two-binary-trees) |
@@ -177,6 +179,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/seong-wooo/Algorithm_Study/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
+| [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0239-sliding-window-maximum) |
@@ -382,6 +385,7 @@
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
+| [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
 | [0695-max-area-of-island](https://github.com/seong-wooo/Algorithm_Study/tree/master/0695-max-area-of-island) |
 | [0967-minimum-falling-path-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0967-minimum-falling-path-sum) |
@@ -507,4 +511,8 @@
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
