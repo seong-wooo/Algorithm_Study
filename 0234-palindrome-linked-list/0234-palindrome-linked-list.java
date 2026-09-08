@@ -10,21 +10,35 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        Deque<Integer> stack = new LinkedList<>();
-        
-        while (head != null) {
-            stack.add(head.val);
-            head = head.next;
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
         }
 
-        while (!stack.isEmpty()) {
-            if (stack.size() <= 1) {
-                break;
-            }
+        if (fast != null) {
+            slow = slow.next;
+        }
 
-            if (stack.pollFirst() != stack.pollLast()) {
+        // slow - 끝 노드까지 반대로 연결
+        ListNode rev = null;
+
+        while (slow != null) {
+            ListNode next = slow.next;
+            slow.next = rev;
+            rev = slow;
+            slow = next;
+        }
+
+        while (rev != null) {
+            if (rev.val != head.val) {
                 return false;
             }
+            rev = rev.next;
+            head = head.next;
         }
         return true;
     }
