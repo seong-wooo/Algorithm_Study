@@ -137,6 +137,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0005-longest-palindromic-substring) |
+| [0020-valid-parentheses](https://github.com/seong-wooo/Algorithm_Study/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
@@ -244,6 +245,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/seong-wooo/Algorithm_Study/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
 | [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
@@ -466,4 +468,8 @@
 | [0021-merge-two-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0234-palindrome-linked-list) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/seong-wooo/Algorithm_Study/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
