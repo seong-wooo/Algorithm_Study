@@ -54,6 +54,7 @@
 | [0744-network-delay-time](https://github.com/seong-wooo/Algorithm_Study/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/seong-wooo/Algorithm_Study/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/seong-wooo/Algorithm_Study/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
 | [1955-seat-reservation-manager](https://github.com/seong-wooo/Algorithm_Study/tree/master/1955-seat-reservation-manager) |
@@ -192,6 +193,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0747-min-cost-climbing-stairs) |
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
 | [0967-minimum-falling-path-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0967-minimum-falling-path-sum) |
+| [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1081-video-stitching](https://github.com/seong-wooo/Algorithm_Study/tree/master/1081-video-stitching) |
@@ -282,6 +284,7 @@
 | [0002-add-two-numbers](https://github.com/seong-wooo/Algorithm_Study/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
+| [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/seong-wooo/Algorithm_Study/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1448-maximum-69-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/1448-maximum-69-number) |
@@ -304,6 +307,7 @@
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
+| [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
@@ -338,6 +342,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
+| [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 ## Binary Search Tree
@@ -350,6 +355,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2422-query-kth-smallest-trimmed-number) |
 ## Simulation
@@ -374,6 +380,7 @@
 ## Geometry
 |  |
 | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [2206-detonate-the-maximum-bombs](https://github.com/seong-wooo/Algorithm_Study/tree/master/2206-detonate-the-maximum-bombs) |
 ## Linked List
@@ -486,4 +493,8 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0023-merge-k-sorted-lists) |
+## K-D Tree
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
