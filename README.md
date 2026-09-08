@@ -175,6 +175,7 @@
 | [0011-container-with-most-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/seong-wooo/Algorithm_Study/tree/master/0046-permutations) |
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -481,6 +482,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0046-permutations](https://github.com/seong-wooo/Algorithm_Study/tree/master/0046-permutations) |
 | [0052-n-queens-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0052-n-queens-ii) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2279-maximum-split-of-positive-even-integers) |
 ## Memoization
