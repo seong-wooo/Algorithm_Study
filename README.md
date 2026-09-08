@@ -179,6 +179,7 @@
 | [0046-permutations](https://github.com/seong-wooo/Algorithm_Study/tree/master/0046-permutations) |
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/seong-wooo/Algorithm_Study/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
@@ -306,6 +307,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0078-subsets) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [0461-hamming-distance](https://github.com/seong-wooo/Algorithm_Study/tree/master/0461-hamming-distance) |
 ## Sorting
@@ -487,6 +489,7 @@
 | [0046-permutations](https://github.com/seong-wooo/Algorithm_Study/tree/master/0046-permutations) |
 | [0052-n-queens-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/seong-wooo/Algorithm_Study/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0078-subsets) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/seong-wooo/Algorithm_Study/tree/master/2279-maximum-split-of-positive-even-integers) |
 ## Memoization
 |  |
