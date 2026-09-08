@@ -2,19 +2,20 @@ class Solution {
     List<List<Integer>> answer = new ArrayList<>();
 
     public List<List<Integer>> combine(int n, int k) {
-        dfs(n, k, new LinkedList<>());
+        dfs(n, k, new ArrayList<>());
         return answer;
     }
 
-    private void dfs(int n, int k, Deque<Integer> current) {
+    private void dfs(int n, int k, List<Integer> current) {
         if (current.size() == k) {
             answer.add(new ArrayList<>(current));
             return;
         }
 
+        int remaining = k - current.size();
 
-        for(int i = current.isEmpty() ? 1 : current.peekLast() + 1; i <= n; i++) {
-            current.offer(i);
+        for(int i = current.isEmpty() ? 1 : current.get(current.size()-1) + 1; i <= n; i++) {
+            current.add(i);
             dfs(n, k, current);
             current.removeLast();
         }
