@@ -10,14 +10,16 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        ListNode rev = null;
-        while (head != null) {
-            ListNode next = head.next;
-            head.next = rev;
-            rev = head;
-            head = next;
-        }
+        return reverse(head, null);
+    }
 
-        return rev;
+    public ListNode reverse(ListNode node, ListNode prev) {
+        if (node == null) {
+            return prev;
+        }
+        ListNode next = node.next;
+        node.next = prev;
+
+        return reverse(next, node);
     }
 }
