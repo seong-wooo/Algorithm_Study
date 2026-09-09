@@ -155,6 +155,7 @@
 | [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
+| [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/seong-wooo/Algorithm_Study/tree/master/0242-valid-anagram) |
 | [0332-reconstruct-itinerary](https://github.com/seong-wooo/Algorithm_Study/tree/master/0332-reconstruct-itinerary) |
 | [0344-reverse-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0344-reverse-string) |
@@ -237,6 +238,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/seong-wooo/Algorithm_Study/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/seong-wooo/Algorithm_Study/tree/master/0347-top-k-frequent-elements) |
@@ -346,6 +348,7 @@
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/seong-wooo/Algorithm_Study/tree/master/0303-range-sum-query-immutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/seong-wooo/Algorithm_Study/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -478,6 +481,7 @@
 ## Trie
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 ## Bucket Sort
 |  |
