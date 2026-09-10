@@ -188,6 +188,7 @@
 | [0039-combination-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/seong-wooo/Algorithm_Study/tree/master/0046-permutations) |
+| [0056-merge-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0078-subsets) |
@@ -327,6 +328,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
@@ -576,4 +578,8 @@
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/seong-wooo/Algorithm_Study/tree/master/0743-network-delay-time) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
