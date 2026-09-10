@@ -3,18 +3,18 @@ class Solution {
         if (s.length() != t.length()) {
             return false;
         }
-        char[] a = s.toCharArray();
-        char[] b = t.toCharArray();
 
-        Arrays.sort(a);
-        Arrays.sort(b);
+        char[] ss = s.toCharArray();
+        Arrays.sort(ss);
+        char[] tt = t.toCharArray();
+        Arrays.sort(tt);
 
-
-        for (int i = 0; i < b.length; i++) {
-            if (a[i] != b[i]){ 
+        for (int i = 0; i <ss.length; i++) {
+            if (ss[i] != tt[i]) {
                 return false;
             }
         }
+
         return true;
     }
 }
