@@ -185,6 +185,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/seong-wooo/Algorithm_Study/tree/master/0046-permutations) |
@@ -264,6 +265,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0033-search-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/seong-wooo/Algorithm_Study/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
