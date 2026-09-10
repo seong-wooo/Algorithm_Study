@@ -1,10 +1,10 @@
 class Solution {
     public String largestNumber(int[] nums) {
-        String result = Arrays.stream(nums)
+        String answer = Arrays.stream(nums)
         .mapToObj(String::valueOf)
-        .sorted((a, b) -> (b + a).compareTo(a + b))
+        .sorted((a, b) -> (b + a).compareTo((a + b)))
         .collect(Collectors.joining());
 
-        return result.startsWith("0") ? "0" : result;
+        return answer.charAt(0) == '0' ? "0" : answer;
     }
 }
