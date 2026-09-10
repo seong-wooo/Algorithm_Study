@@ -1,17 +1,12 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
         List<int[]> answer = new ArrayList<>();
-        Queue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 
-        for(int[] itv : intervals) {
-            pq.add(itv);
-        }
 
-        int[] current = pq.poll();
+        int[] current = intervals[0];
 
-        while(!pq.isEmpty()) {
-            int[] node = pq.poll();
-
+        for (int[] node : intervals) {
             if (current[1] >= node[0]) {
                 current[1] = (int) Math.max(current[1], node[1]);
                 continue;
