@@ -133,6 +133,7 @@
 | [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0125-valid-palindrome) |
+| [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/seong-wooo/Algorithm_Study/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/seong-wooo/Algorithm_Study/tree/master/0283-move-zeroes) |
@@ -327,6 +328,7 @@
 | ------- |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/seong-wooo/Algorithm_Study/tree/master/0242-valid-anagram) |
@@ -370,6 +372,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0023-merge-k-sorted-lists) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/seong-wooo/Algorithm_Study/tree/master/0347-top-k-frequent-elements) |
@@ -423,6 +426,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0023-merge-k-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0328-odd-even-linked-list) |
@@ -529,6 +533,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
 ## Tournament Sort
 |  |
 | ------- |
