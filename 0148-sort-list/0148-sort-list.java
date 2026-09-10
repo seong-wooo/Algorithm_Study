@@ -15,35 +15,34 @@ class Solution {
         }
 
         ListNode half = null, slow = head, fast = head;
+
         while(fast != null && fast.next != null) {
             half = slow;
-            slow = slow.next;
             fast = fast.next.next;
+            slow = slow.next;
         }
 
         half.next = null;
-        ListNode l1 = sortList(head);
-        ListNode l2 = sortList(slow);
 
-        return mergeTwoLists(l1, l2);
+        ListNode n1 = sortList(head);
+        ListNode n2 = sortList(slow);
+        return merge(n1, n2);
     }
 
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l1 == null) {
-            return l2;
+    public ListNode merge(ListNode n1, ListNode n2) {
+        if (n1 == null) {
+            return n2;
+        }
+        if (n2 == null) {
+            return n1;
         }
 
-        if (l2 == null) {
-            return l1;
-        }
-
-        if (l1.val > l2.val) {
-            ListNode temp = l1;
-            l1 = l2;
-            l2 = temp;
-        }
-
-        l1.next = mergeTwoLists(l1.next, l2);
-        return l1;
+        if (n1.val < n2.val) {
+            n1.next = merge(n1.next, n2);
+            return n1;
+        } 
+        
+        n2.next = merge(n1, n2.next);
+        return n2;
     }
 }
