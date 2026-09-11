@@ -3,18 +3,15 @@ class Solution {
         int left = 0;
         int right = numbers.length - 1;
 
-        while (left < right) {
-            int current = numbers[left] + numbers[right];
-            if (current == target) {
-                return new int[]{left+1, right+1};
-            }
+        for (int i = 0; i < numbers.length; i++) {
+            int current = numbers[i];
 
-            if (current > target) {
-                right--;
-            } else {
-                left++;
+            int idx = Arrays.binarySearch(numbers, i + 1, numbers.length, target - current);
+            if (idx >= 0) {
+                return new int[]{i + 1, idx + 1};
             }
         }
+
         return new int[]{-1, -1};
     }
 }
