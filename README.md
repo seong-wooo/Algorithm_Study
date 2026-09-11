@@ -195,6 +195,7 @@
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0136-single-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/seong-wooo/Algorithm_Study/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
@@ -328,6 +329,7 @@
 |  |
 | ------- |
 | [0078-subsets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [0461-hamming-distance](https://github.com/seong-wooo/Algorithm_Study/tree/master/0461-hamming-distance) |
 ## Sorting
