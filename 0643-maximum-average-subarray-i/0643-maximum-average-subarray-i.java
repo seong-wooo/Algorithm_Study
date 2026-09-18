@@ -5,13 +5,13 @@ class Solution {
         for (int i = 0; i < k; i++) {
             total += nums[i];
         }
-        double answer = total / k;
+        double answer = total;
 
         for (int i = k; i < nums.length; i++) {
             total += nums[i] - nums[i - k];
-            answer = Math.max(answer, total / k);
+            answer = Math.max(answer, total);
         }
 
-        return answer;
+        return answer / k;
     }
 }
