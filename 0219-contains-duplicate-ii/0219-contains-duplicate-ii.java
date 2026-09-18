@@ -3,11 +3,11 @@ class Solution {
         Map<Integer, Integer> indexes = new HashMap<>(nums.length);
 
         for (int i = 0; i < nums.length; i++) {
-            if (i - indexes.getOrDefault(nums[i], -k-1) <= k) {
+            Integer prev = indexes.put(nums[i], i);
+
+            if (prev != null && i - prev <= k) {
                 return true;
             }
-
-            indexes.put(nums[i], i);
         }
 
         return false;
