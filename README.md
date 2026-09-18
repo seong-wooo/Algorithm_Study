@@ -215,6 +215,7 @@
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
+| [0643-maximum-average-subarray-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0643-maximum-average-subarray-i) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/seong-wooo/Algorithm_Study/tree/master/0695-max-area-of-island) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/seong-wooo/Algorithm_Study/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -302,6 +303,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0239-sliding-window-maximum) |
+| [0643-maximum-average-subarray-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0643-maximum-average-subarray-i) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/seong-wooo/Algorithm_Study/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
