@@ -174,6 +174,7 @@
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/seong-wooo/Algorithm_Study/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1666-make-the-string-great](https://github.com/seong-wooo/Algorithm_Study/tree/master/1666-make-the-string-great) |
 | [1782-smallest-string-with-a-given-numeric-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/1782-smallest-string-with-a-given-numeric-value) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/seong-wooo/Algorithm_Study/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2128-reverse-prefix-of-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/2128-reverse-prefix-of-word) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
@@ -260,6 +261,7 @@
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
 | [1297-maximum-number-of-balloons](https://github.com/seong-wooo/Algorithm_Study/tree/master/1297-maximum-number-of-balloons) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/seong-wooo/Algorithm_Study/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 | [2413-smallest-number-in-infinite-set](https://github.com/seong-wooo/Algorithm_Study/tree/master/2413-smallest-number-in-infinite-set) |
@@ -306,6 +308,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0643-maximum-average-subarray-i) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/seong-wooo/Algorithm_Study/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Prefix Sum
 |  |
@@ -381,6 +384,7 @@
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
 | [1297-maximum-number-of-balloons](https://github.com/seong-wooo/Algorithm_Study/tree/master/1297-maximum-number-of-balloons) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
 | [2475-largest-palindromic-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/2475-largest-palindromic-number) |
 ## Divide and Conquer
