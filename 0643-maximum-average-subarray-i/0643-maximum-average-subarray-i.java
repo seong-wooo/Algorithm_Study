@@ -9,7 +9,9 @@ class Solution {
 
         for (int i = k; i < nums.length; i++) {
             total += nums[i] - nums[i - k];
-            answer = Math.max(answer, total);
+            if (total > answer) {
+                answer = total;
+            }
         }
 
         return answer / k;
