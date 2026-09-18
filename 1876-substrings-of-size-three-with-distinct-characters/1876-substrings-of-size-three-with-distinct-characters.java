@@ -1,32 +1,33 @@
 class Solution {
     public int countGoodSubstrings(String s) {
-        if (s.length() <= 2) {
+        if (s.length() < 3) {
             return 0;
         }
 
-        int[] exists = new int[26];
-        Arrays.fill(exists, -1);
-        boolean first = true;
-        for (int i = 0; i < 3; i++) {
-            if (exists[index(s, i)] >= 0) {
-                first = false;
-            }
-            
-            exists[index(s, i)] = i;
-        }
-        int answer = first ? 1 : 0;
+        char[] ch = s.toCharArray();
+        int[] freq = new int[26];
+        int dup = 0;
+        int answer = 0;
+        for(int i = 0; i < ch.length; i++) {
+            freq[ch[i] - 'a']++;
 
-        for (int i = 3; i < s.length(); i++) {
-            if (exists[index(s, i)] < i - 2 && (s.charAt(i - 1) != s.charAt(i-2))) {
+            if(freq[ch[i] - 'a'] == 2) {
+                dup++;
+            }
+
+            if (i >= 3) {
+                freq[ch[i - 3] - 'a']--;
+                if(freq[ch[i - 3] - 'a'] == 1) {
+                    dup--;
+                }
+            }
+
+            if (i >= 2 && dup == 0) {
                 answer++;
             }
-            exists[index(s, i)] = i;
+
         }
 
         return answer;
-    }
-
-    private int index(String s, int i) {
-        return s.charAt(i) - 'a';
     }
 }
