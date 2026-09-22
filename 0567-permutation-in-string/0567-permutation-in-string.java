@@ -21,7 +21,8 @@ class Solution {
                 }
                 left = right + 1;
             } else {
-                counter.put(c2[right], counter.get(c2[right]) - 1);                
+                counter.put(c2[right], counter.get(c2[right]) - 1);
+
                 while(counter.get(c2[right]) < 0) {
                     if (counter.containsKey(c2[left])) {
                         counter.put(c2[left], counter.get(c2[left]) + 1);
