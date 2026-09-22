@@ -13,8 +13,7 @@ class Solution {
 
 
             if (right - left + 1 - k > maxCount) {
-                counter[ch[left] - 'A']--;
-                left++;
+                counter[ch[left++] - 'A']--;
             }
         }
         return ch.length - left;
