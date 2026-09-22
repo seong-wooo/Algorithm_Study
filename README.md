@@ -238,6 +238,7 @@
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/seong-wooo/Algorithm_Study/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/seong-wooo/Algorithm_Study/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/seong-wooo/Algorithm_Study/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1829-maximum-units-on-a-truck](https://github.com/seong-wooo/Algorithm_Study/tree/master/1829-maximum-units-on-a-truck) |
 | [1833-find-the-highest-altitude](https://github.com/seong-wooo/Algorithm_Study/tree/master/1833-find-the-highest-altitude) |
 | [1961-maximum-ice-cream-bars](https://github.com/seong-wooo/Algorithm_Study/tree/master/1961-maximum-ice-cream-bars) |
@@ -273,6 +274,7 @@
 | [0904-fruit-into-baskets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0904-fruit-into-baskets) |
 | [1297-maximum-number-of-balloons](https://github.com/seong-wooo/Algorithm_Study/tree/master/1297-maximum-number-of-balloons) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/seong-wooo/Algorithm_Study/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/seong-wooo/Algorithm_Study/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2300-construct-string-with-repeat-limit](https://github.com/seong-wooo/Algorithm_Study/tree/master/2300-construct-string-with-repeat-limit) |
@@ -296,6 +298,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/1004-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/seong-wooo/Algorithm_Study/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/seong-wooo/Algorithm_Study/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2634-minimum-common-value](https://github.com/seong-wooo/Algorithm_Study/tree/master/2634-minimum-common-value) |
 ## Stack
@@ -328,6 +331,7 @@
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/seong-wooo/Algorithm_Study/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/seong-wooo/Algorithm_Study/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/seong-wooo/Algorithm_Study/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/seong-wooo/Algorithm_Study/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2090-k-radius-subarray-averages](https://github.com/seong-wooo/Algorithm_Study/tree/master/2090-k-radius-subarray-averages) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/seong-wooo/Algorithm_Study/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -339,6 +343,7 @@
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/1004-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/seong-wooo/Algorithm_Study/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1833-find-the-highest-altitude](https://github.com/seong-wooo/Algorithm_Study/tree/master/1833-find-the-highest-altitude) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/2469-longest-subsequence-with-limited-sum) |
 ## Math
