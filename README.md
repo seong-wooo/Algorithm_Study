@@ -226,6 +226,7 @@
 | [0739-daily-temperatures](https://github.com/seong-wooo/Algorithm_Study/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0747-min-cost-climbing-stairs) |
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
+| [0904-fruit-into-baskets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0904-fruit-into-baskets) |
 | [0967-minimum-falling-path-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0967-minimum-falling-path-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1004-max-consecutive-ones-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/1004-max-consecutive-ones-iii) |
@@ -267,6 +268,7 @@
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0771-jewels-and-stones](https://github.com/seong-wooo/Algorithm_Study/tree/master/0771-jewels-and-stones) |
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
+| [0904-fruit-into-baskets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0904-fruit-into-baskets) |
 | [1297-maximum-number-of-balloons](https://github.com/seong-wooo/Algorithm_Study/tree/master/1297-maximum-number-of-balloons) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
@@ -316,6 +318,7 @@
 | [0219-contains-duplicate-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0239-sliding-window-maximum) |
 | [0643-maximum-average-subarray-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0643-maximum-average-subarray-i) |
+| [0904-fruit-into-baskets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/1004-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/seong-wooo/Algorithm_Study/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
