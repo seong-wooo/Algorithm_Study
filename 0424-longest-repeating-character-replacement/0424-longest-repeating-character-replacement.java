@@ -5,7 +5,6 @@ class Solution {
         int[] counter = new int[26];
         
         int maxCount = 0;
-        int answer = 0;
 
         for (int right = 0; right < ch.length; right++) {
             int index = ch[right] - 'A';
@@ -17,9 +16,7 @@ class Solution {
                 counter[ch[left] - 'A']--;
                 left++;
             }
-
-            answer = Math.max(answer, right - left + 1);
         }
-        return answer;
+        return ch.length - left;
     }
 }
