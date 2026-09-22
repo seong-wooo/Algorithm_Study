@@ -22,7 +22,7 @@ class Solution {
                 counter[ch[left] - 'A']--;
                 if (ch[left] == maxAlpha) {
                     for (int i = left + 1; i <= right; i++) {
-                        if (counter[ch[i] - 'A'] > maxCount) {
+                        if (counter[ch[i] - 'A'] > counter[ch[left] - 'A']) {
                             maxCount = counter[ch[i] - 'A'];
                             maxAlpha = ch[i];
                         }
