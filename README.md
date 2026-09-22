@@ -143,6 +143,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/seong-wooo/Algorithm_Study/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0567-permutation-in-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0908-middle-of-the-linked-list) |
 | [0953-reverse-only-letters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0953-reverse-only-letters) |
 | [2128-reverse-prefix-of-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/2128-reverse-prefix-of-word) |
@@ -167,6 +168,7 @@
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/seong-wooo/Algorithm_Study/tree/master/0424-longest-repeating-character-replacement) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0567-permutation-in-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0771-jewels-and-stones](https://github.com/seong-wooo/Algorithm_Study/tree/master/0771-jewels-and-stones) |
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
@@ -268,6 +270,7 @@
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/seong-wooo/Algorithm_Study/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
+| [0567-permutation-in-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0771-jewels-and-stones](https://github.com/seong-wooo/Algorithm_Study/tree/master/0771-jewels-and-stones) |
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
@@ -323,6 +326,7 @@
 | [0219-contains-duplicate-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/seong-wooo/Algorithm_Study/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0643-maximum-average-subarray-i) |
 | [0904-fruit-into-baskets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/1004-max-consecutive-ones-iii) |
