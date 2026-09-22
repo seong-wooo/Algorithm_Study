@@ -10,11 +10,8 @@ class Solution {
         for (int right = 0; right < ch.length; right++) {
             int index = ch[right] - 'A';
 
-            counter[index]++;
-            
-            if (counter[index] > maxCount) {
-                maxCount = counter[index];
-            }
+            maxCount = Math.max(++counter[index], maxCount);
+
 
             if (right - left + 1 - k > maxCount) {
                 counter[ch[left] - 'A']--;
