@@ -1,19 +1,26 @@
 class Solution {
     public int totalFruit(int[] fruits) {
-        int left = 0;
-        Map<Integer, Integer> count = new HashMap<>();
+        int last = -1, secondLast = -1;
+        int lastRun = 0;   // 마지막 종류가 끝에서 연속으로 나온 길이
+        int current = 0;   // 현재 유효한 윈도우 길이
         int answer = 0;
-        for (int right = 0; right < fruits.length; right++) {
-            count.merge(fruits[right], 1, Integer::sum);
 
-            while (count.size() > 2) {
-                if (count.merge(fruits[left], -1, Integer::sum) == 0) {
-                    count.remove(fruits[left]);
-                }
-                left++;
+        for (int f : fruits) {
+            if (f == last || f == secondLast) {
+                current++;
+            } else {
+                current = lastRun + 1;
             }
 
-            answer = Math.max(answer, right - left + 1);
+            if (f == last) {
+                lastRun++;
+            } else {
+                lastRun = 1;
+                secondLast = last;
+                last = f;
+            }
+
+            answer = Math.max(answer, current);
         }
         return answer;
     }
