@@ -3,8 +3,7 @@ class Solution {
         int left = 0;
         char[] ch = s.toCharArray();
         int[] counter = new int[26];
-
-        char maxAlpha = ' ';
+        
         int maxCount = 0;
         int answer = 0;
 
@@ -15,7 +14,6 @@ class Solution {
             
             if (counter[index] > maxCount) {
                 maxCount = counter[index];
-                maxAlpha = ch[right];
             }
 
             if (right - left + 1 - k > maxCount) {
