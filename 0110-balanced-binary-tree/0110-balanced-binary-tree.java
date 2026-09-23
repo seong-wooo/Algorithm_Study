@@ -28,9 +28,16 @@ class Solution {
         }
 
         int left = depth(root.left);
-        int right = depth(root.right);
 
-        if (left == -1 || right == -1 || left - right > 1 || right - left > 1) {
+        if (left == -1 ){ 
+            return -1;
+        }
+        int right = depth(root.right);
+        if (right == -1) {
+            return -1;
+        }
+
+        if (left - right > 1 || right - left > 1) {
             return -1;
         }
 
