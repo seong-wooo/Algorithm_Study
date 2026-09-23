@@ -14,23 +14,26 @@
  * }
  */
 class Solution {
-    boolean answer = true;
     public boolean isBalanced(TreeNode root) {
-        findDepth(root);
-        return answer;
+        if (root == null) {
+            return true;
+        }
+
+        return depth(root) > 0;
     }
-    
-    public int findDepth(TreeNode root) {
-        if (root == null || !answer) {
+
+    public int depth(TreeNode root) {
+        if (root == null) {
             return 0;
         }
 
-        int left = findDepth(root.left);
-        int right = findDepth(root.right);
-        if (Math.abs(left - right) > 1) {
-            answer = false;
-            return 0;
+        int left = depth(root.left);
+        int right = depth(root.right);
+
+        if (left == -1 || right == -1 || left - right > 1 || right - left > 1) {
+            return -1;
         }
-        return 1 + (int) Math.max(left, right);
+
+        return Math.max(left, right) + 1;
     }
 }
