@@ -5,15 +5,13 @@ class Solution {
             parents[i] = i;
         }
 
-        List<int[]> answer = new ArrayList<>();
-
         for (int[] e : edges) {
             if (!union(parents, e[0], e[1])) {
-                answer.add(e);
+                return e;
             }
         }
 
-        return answer.get(answer.size() - 1);
+        return null;
     }
 
     private boolean union(int[] parents, int a, int b) {
