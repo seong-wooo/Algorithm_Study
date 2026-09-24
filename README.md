@@ -171,6 +171,7 @@
 | [0005-longest-palindromic-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/seong-wooo/Algorithm_Study/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/seong-wooo/Algorithm_Study/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
@@ -212,6 +213,7 @@
 | [0039-combination-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/seong-wooo/Algorithm_Study/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/seong-wooo/Algorithm_Study/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
@@ -279,6 +281,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/seong-wooo/Algorithm_Study/tree/master/0049-group-anagrams) |
 | [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/seong-wooo/Algorithm_Study/tree/master/0242-valid-anagram) |
@@ -406,6 +409,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/seong-wooo/Algorithm_Study/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
