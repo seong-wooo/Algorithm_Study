@@ -1,13 +1,19 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] counter = new int[numCourses];
-        Map<Integer, List<Integer>> courses = new HashMap<>();
-        Queue<Integer> q = new ArrayDeque<>();
+        List<List<Integer>> graph = new ArrayList<>(numCourses);
+
+        for (int i = 0; i < numCourses; i++) {
+            graph.add(new ArrayList<>());
+        }
+
 
         for (int[] p : prerequisites) {
+            graph.get(p[1]).add(p[0]);
             counter[p[0]]++;
-            courses.computeIfAbsent(p[1], k -> new ArrayList<>()).add(p[0]);
         }
+
+        Queue<Integer> q = new ArrayDeque<>();
 
         for (int i = 0; i < numCourses; i++) {
             if (counter[i] == 0) {
@@ -15,21 +21,18 @@ class Solution {
             }
         }
 
+        int taken = 0;
         while (!q.isEmpty()) {
             int course = q.poll();
-            List<Integer> next = courses.getOrDefault(course, List.of());
-            for (int n : next) {
+            taken++;
+
+            for (int n : graph.get(course)) {
                 if (--counter[n] == 0) {
                     q.offer(n);
                 }
             }
         }
 
-        for (int c : counter) {
-            if (c > 0) {
-                return false;
-            }
-        }
-        return true;
+        return taken == numCourses;
     }
 }
