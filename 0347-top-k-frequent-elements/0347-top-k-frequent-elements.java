@@ -6,10 +6,19 @@ class Solution {
             counter.merge(num, 1, Integer::sum);
         }
 
-        return counter.entrySet().stream()
-            .sorted(Map.Entry.<Integer, Integer>comparingByValue().reversed())
-            .limit(k)
-            .mapToInt(entry -> entry.getKey())
-            .toArray();
+        Queue<Map.Entry<Integer, Integer>> pq = new PriorityQueue<>(Map.Entry.comparingByValue());
+
+        for (Map.Entry<Integer,Integer> entry : counter.entrySet()) {
+            pq.offer(entry);
+            if (pq.size() > k) {
+                pq.poll();
+            }
+        }
+
+        int[] answer = new int[k];
+        for (int i = 0; i < k; i++) {
+            answer[i] = pq.poll().getKey();
+        }
+        return answer;
     }
 }
