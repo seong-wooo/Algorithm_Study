@@ -15,26 +15,23 @@
  */
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
-        Queue<TreeNode> q = new ArrayDeque<>();
-        Queue<Integer> pq = new PriorityQueue<>();
-
-        q.offer(root);
-
-        while (!q.isEmpty()) {
-            TreeNode n = q.poll();
-            pq.offer(n.val);
-            if (n.left != null) {
-                q.offer(n.left);
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        TreeNode curr = root;
+        
+        while (curr != null || !stack.isEmpty()) {
+            while (curr != null) {
+                stack.push(curr);
+                curr = curr.left;
             }
-            if (n.right != null) {
-                q.offer(n.right);
+
+            TreeNode node = stack.pop();
+            k--;
+            if (k == 0) {
+                return node.val;
             }
-        }
 
-        while (--k > 0) {
-            pq.poll();
+            curr = node.right;
         }
-
-        return pq.poll();
+        return -1;
     }
 }
