@@ -37,14 +37,10 @@ class Solution {
 
         cloneMap.put(node, cloneNode);
 
-        cloneNode.neighbors.addAll(
-            new ArrayList<>(
-                node.neighbors.stream()
-                .map(this::cloneGraph)
-                .collect(Collectors.toList())
-            )
-        );
-
+        for (Node next : node.neighbors) {
+            cloneNode.neighbors.add(cloneGraph(next));
+        }
+    
         return cloneNode;
     }
 }
