@@ -19,10 +19,11 @@ class Solution {
             }
         }
 
-        List<Integer> answer = new ArrayList<>();
+        int[] order = new int[numCourses];
+        int taken = 0;
         while (!q.isEmpty()) {
             int course = q.poll();
-            answer.add(course);
+            order[taken++] = course;
 
             for(int next : graph.get(course)) {
                 if (--counter[next] == 0) {
@@ -31,6 +32,6 @@ class Solution {
             }
         }
 
-        return answer.size() == numCourses ? answer.stream().mapToInt(Integer::intValue).toArray() : new int[] {};
+        return taken == numCourses ? order : new int[0];
     }
 }
