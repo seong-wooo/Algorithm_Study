@@ -2,7 +2,7 @@ class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] counter = new int[numCourses];
         Map<Integer, List<Integer>> courses = new HashMap<>();
-        Queue<Integer> q = new LinkedList<>();
+        Queue<Integer> q = new ArrayDeque<>();
 
         for (int[] p : prerequisites) {
             counter[p[0]]++;
