@@ -15,17 +15,17 @@ class Solution {
     }
 
     private boolean union(int[] parents, int a, int b) {
-        if (a > b) {
-            int temp = a;
-            a = b;
-            b = temp;
-        }
-
         int pa = findParents(parents, a);
         int pb = findParents(parents, b);
 
         if (pa == pb) {
             return false;
+        }
+
+        if (pa > pb) {
+            int temp = pa;
+            pa = pb;
+            pb = temp;
         }
         parents[pb] = pa;
         return true;
