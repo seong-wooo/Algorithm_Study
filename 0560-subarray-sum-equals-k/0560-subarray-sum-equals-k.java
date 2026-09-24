@@ -1,20 +1,14 @@
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        int[] sum = new int[nums.length + 1];
         Map<Integer, Integer> counter = new HashMap<>();
+        counter.put(0, 1);
+        int sum = 0, answer = 0;
 
-
-        for (int i = 0; i < nums.length; i++) {
-            sum[i+1] += sum[i] + nums[i];
+        for (int num : nums) {
+            sum += num;
+            answer += counter.getOrDefault(sum - k, 0);
+            counter.merge(sum, 1, Integer::sum);
         }
-
-        int answer = 0;
-
-        for(int i = 0; i < sum.length; i++) {
-            answer += counter.getOrDefault(sum[i] - k, 0);
-            counter.merge(sum[i], 1, Integer::sum);
-        }
-
         return answer;
     }
 }
