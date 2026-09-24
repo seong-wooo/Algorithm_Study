@@ -1,20 +1,16 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        Map<String, List<String>> anagram = new HashMap<>();
+        Map<String, List<String>> ana = new HashMap<>();
 
-        for(String str: strs) {
+        for (String str : strs) {
             
-            char[] ch = new char[26];
+            char[] count = new char[26];
             for (char c : str.toCharArray()) {
-                ch[c - 'a']++;
+                count[c-'a']++;
             }
-            String ana = new String(ch);
-
-            anagram.computeIfAbsent(ana, k -> new ArrayList<>()).add(str);
+            ana.computeIfAbsent(new String(count), k -> new ArrayList<>()).add(str);
         }
 
-
-        return new ArrayList<>(anagram.values());
-
+        return new ArrayList<>(ana.values());
     }
 }
