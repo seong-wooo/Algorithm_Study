@@ -1,23 +1,24 @@
 class Solution {
     public boolean isValid(String s) {
-        Deque<Character> stack = new ArrayDeque<>();
-
-        Map<Character, Character> matching = Map.of(
-            '}', '{', 
+        Map<Character, Character> map = Map.of(
+        
             ']', '[',
+            '}', '{',
             ')', '('
         );
 
+        Deque<Character> stack = new ArrayDeque<>();
+
         for (char c : s.toCharArray()) {
-            if (!matching.containsKey(c)) {
-                stack.push(c);
-            } else {
-                if (stack.isEmpty() || stack.pop() != matching.get(c)) {
+            if (map.containsKey(c)) {
+                if (stack.isEmpty() || stack.pop() != map.get(c)) {
                     return false;
                 }
+            } else {
+                stack.push(c);
             }
         }
-        
+
         return stack.isEmpty();
     }
 }
