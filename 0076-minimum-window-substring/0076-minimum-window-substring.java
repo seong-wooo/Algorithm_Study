@@ -4,40 +4,38 @@ class Solution {
             return "";
         }
 
-        Map<Character, Integer> counter = new HashMap<>();
-
+        int[] counter = new int[128];
+        int missing = 0;
         for (char c : t.toCharArray()) {
-            counter.merge(c, 1, Integer::sum);
-        }
-
-        int missing = counter.size();
-        int left = 0;
-        String answer = "";
-        int minSize = s.length() + 1;
-
-        char[] ch = s.toCharArray();
-        for (int right = 0; right < ch.length; right++) {
-            if (counter.containsKey(ch[right])) {
-                counter.put(ch[right], counter.get(ch[right]) - 1);
-                if (counter.get(ch[right]) == 0) {
-                    missing--;
-                }
-                while (missing == 0) {
-                    if (minSize > right - left + 1) {
-                        minSize = right - left + 1;
-                        answer = s.substring(left, right+1);
-                    }
-                    if (counter.containsKey(ch[left])) {
-                        counter.put(ch[left], counter.get(ch[left]) + 1);
-                        if (counter.get(ch[left]) == 1) {
-                            missing++;
-                        }
-                    }
-                    left++;
-                }
+            if (counter[c]++ == 0) {
+                missing++;
             }
         }
 
-        return answer;
+        int left = 0;
+        int minSize = Integer.MAX_VALUE;
+        int bestLeft = 0;
+
+        char[] ch = s.toCharArray();
+
+        for (int right = 0; right < ch.length; right++) {
+            if (--counter[ch[right]] == 0) {
+                missing--;
+            }
+
+            while (missing == 0) {
+                if (right - left + 1 < minSize) {
+                    minSize = right - left + 1; 
+                    bestLeft = left;
+                }
+                if (++counter[ch[left]] == 1) {
+                    missing++;
+                }
+                left++;
+            }
+        }
+
+        return minSize == Integer.MAX_VALUE ? "" : s.substring(bestLeft, bestLeft + minSize);
+
     }
-}
+}   
