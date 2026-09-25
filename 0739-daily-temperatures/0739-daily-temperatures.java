@@ -1,19 +1,21 @@
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
-        Deque<Integer> stack = new ArrayDeque<>();
+        int[] stack = new int[temperatures.length];
+        int top = 0;
+        int[] answer = new int[temperatures.length];
 
         for (int i = 0; i < temperatures.length; i++) {
-            while(!stack.isEmpty() && temperatures[stack.peek()] < temperatures[i]) {
-                temperatures[stack.peek()] = i - stack.pop();
+            while (top > 0 && temperatures[stack[top - 1]] < temperatures[i]) {
+                answer[stack[top - 1]] = i - stack[top - 1];
+                top--;
             }
-
-            stack.push(i);
+            stack[top++] = i;
         }
 
-        while(!stack.isEmpty()) {
-            temperatures[stack.pop()] = 0;
+        while (top > 0) {
+            answer[stack[--top]] = 0;
         }
 
-        return temperatures;
+        return answer;
     }
 }
