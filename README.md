@@ -255,6 +255,7 @@
 | [0739-daily-temperatures](https://github.com/seong-wooo/Algorithm_Study/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0747-min-cost-climbing-stairs) |
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
+| [0875-koko-eating-bananas](https://github.com/seong-wooo/Algorithm_Study/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0930-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0967-minimum-falling-path-sum) |
@@ -335,6 +336,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/seong-wooo/Algorithm_Study/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/seong-wooo/Algorithm_Study/tree/master/0713-subarray-product-less-than-k) |
+| [0875-koko-eating-bananas](https://github.com/seong-wooo/Algorithm_Study/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/1004-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/seong-wooo/Algorithm_Study/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
