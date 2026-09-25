@@ -1,24 +1,17 @@
 class Solution {
     public boolean isValid(String s) {
-        Map<Character, Character> map = Map.of(
-        
-            ']', '[',
-            '}', '{',
-            ')', '('
-        );
-
-        Deque<Character> stack = new ArrayDeque<>();
-
-        for (char c : s.toCharArray()) {
-            if (map.containsKey(c)) {
-                if (stack.isEmpty() || stack.pop() != map.get(c)) {
-                    return false;
-                }
-            } else {
-                stack.push(c);
-            }
+        if ((s.length() & 1) == 1) {
+            return false;
         }
 
-        return stack.isEmpty();
+        char[] stack = new char[s.length()];
+        int top = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '(') stack[top++] = ')';
+            else if (c == '[') stack[top++] = ']';
+            else if (c == '{') stack[top++] = '}';
+            else if (top == 0 || stack[--top] != c) return false;
+        }
+        return top == 0;
     }
 }
