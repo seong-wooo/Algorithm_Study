@@ -1,17 +1,17 @@
 class Solution {
     public int characterReplacement(String s, int k) {
         int most = 0;
-        Map<Character, Integer> counter = new HashMap<>();
+        int[] counter = new int[28];
         int left = 0;
 
         for (int right = 0; right < s.length(); right++) {
             char c = s.charAt(right);
-            counter.merge(c, 1, Integer::sum);
+            counter[c - 'A']++;
 
-            most = Math.max(most, counter.get(c));
+            most = Math.max(most, counter[c - 'A']);
 
             if (right - left + 1 - most > k) {
-                counter.put(s.charAt(left), counter.get(s.charAt(left++)) - 1);
+                counter[s.charAt(left++) -  'A']--;
             }
         }
         return s.length() - left;
