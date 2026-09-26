@@ -22,7 +22,7 @@ class Solution {
         for (int index : stack) {
             removed[index] = true;
         }
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(ch.length);
         for(int i = 0; i < ch.length; i++) {
             if(!removed[i]) {
                 sb.append(ch[i]);
