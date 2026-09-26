@@ -1,46 +1,63 @@
 class LRUCache {
-    private final Map<Integer, Integer> cache = new HashMap<>();
-    private final Map<Integer, Integer> counter = new HashMap<>();
-    private final Queue<Integer> q = new LinkedList<>();
-    private final int capacity;
+    private static class Node {
+        int key, value;
+        Node prev, next;
+        Node(int key, int value) { this.key = key; this.value = value; }
+    }
 
+    private final Map<Integer, Node> map = new HashMap<>();
+    private final Node head = new Node(0, 0);   // 더미 — 가장 최근 쪽
+    private final Node tail = new Node(0, 0);   // 더미 — 가장 오래된 쪽
+    private final int capacity;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
-    }
-    
-    public int get(int key) {
-        access(key);
-        return cache.getOrDefault(key, -1);
-    }
-    
-    public void put(int key, int value) {
-        cache.put(key, value);
-        access(key);
+        head.next = tail;
+        tail.prev = head;
     }
 
-    private void access(int key) {
-        if (!cache.containsKey(key)) {
+    public int get(int key) {
+        Node node = map.get(key);
+        if (node == null) {
+            return -1;
+        }
+        moveToFront(node);
+        return node.value;
+    }
+
+    public void put(int key, int value) {
+        Node node = map.get(key);
+        if (node != null) {
+            node.value = value;
+            moveToFront(node);
             return;
         }
 
-        if (!counter.containsKey(key)) {
-            while (counter.size() == capacity) {
-                int k = q.poll();
-                if (counter.put(k, counter.get(k) - 1) == 1) {
-                    counter.remove(k);
-                    cache.remove(k);
-                }
-            }
+        if (map.size() == capacity) {
+            Node lru = tail.prev;          // 꼬리 더미 바로 앞 = 가장 오래된 노드
+            unlink(lru);
+            map.remove(lru.key);
         }
-        q.offer(key);
-        counter.merge(key, 1, Integer::sum);
+
+        Node fresh = new Node(key, value);
+        map.put(key, fresh);
+        linkFront(fresh);
+    }
+
+    private void moveToFront(Node node) {
+        unlink(node);
+        linkFront(node);
+    }
+
+    private void unlink(Node node) {
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+    }
+
+    private void linkFront(Node node) {
+        node.next = head.next;
+        node.prev = head;
+        head.next.prev = node;
+        head.next = node;
     }
 }
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */
