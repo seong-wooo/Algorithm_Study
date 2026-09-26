@@ -1,44 +1,50 @@
 class Solution {
     public String reorganizeString(String s) {
-        Map<Character, Integer> counter = new HashMap<>();
-
-        char[] ch = s.toCharArray();
-        int half = (s.length() + 1) / 2 + 1;
+        int[] counter = new int[26];
         
+        char[] ch = s.toCharArray();
+        int half = (s.length() + 1) / 2;
+        
+        int max = 0;
         for (char c : ch) {
-            counter.merge(c, 1, Integer::sum);
-            if (counter.get(c) == half) {
-                return "";
+            counter[c - 'a']++;
+            if (counter[c - 'a'] > counter[max]) {
+                max = c - 'a';
             }
         }
 
-        Queue<Character> pq = new PriorityQueue<>((a, b) -> counter.get(b) - counter.get(a));
-        char[] result = new char[s.length()];
-        int count = 0;
-        char c = ' ';
-        
-        for (char a : counter.keySet()) {
-            pq.offer(a);
+        if (counter[max] > half) {
+            return "";
         }
 
+
+        char[] result = new char[s.length()];
+        char c = (char) (max + 'a');
+
         for (int even = 0; even < s.length(); even+=2) {
-            if (count == 0) {
-                c = pq.poll();
-                count = counter.get(c);
+            if (counter[c - 'a'] == 0) {
+                for (int i = 0; i < 26; i++) {
+                    if (counter[i] > 0) {
+                        c = (char) (i + 'a');
+                    }
+                }
             }
 
             result[even] = c;
-            count--;
+            counter[c - 'a']--;
         }
 
         for (int odd = 1; odd < s.length(); odd+=2) {
-            if (count == 0) {
-                c = pq.poll();
-                count = counter.get(c);
+            if (counter[c - 'a'] == 0) {
+                for (int i = 0; i < 26; i++) {
+                    if (counter[i] > 0) {
+                        c = (char) (i + 'a');
+                    }
+                }
             }
 
             result[odd] = c;
-            count--;
+            counter[c - 'a']--;
         }
 
         return new String(result);
