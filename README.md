@@ -81,6 +81,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/seong-wooo/Algorithm_Study/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [1046-last-stone-weight](https://github.com/seong-wooo/Algorithm_Study/tree/master/1046-last-stone-weight) |
 | [1094-car-pooling](https://github.com/seong-wooo/Algorithm_Study/tree/master/1094-car-pooling) |
 | [1464-reduce-array-size-to-the-half](https://github.com/seong-wooo/Algorithm_Study/tree/master/1464-reduce-array-size-to-the-half) |
 | [1955-seat-reservation-manager](https://github.com/seong-wooo/Algorithm_Study/tree/master/1955-seat-reservation-manager) |
@@ -283,6 +284,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/seong-wooo/Algorithm_Study/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/seong-wooo/Algorithm_Study/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
+| [1046-last-stone-weight](https://github.com/seong-wooo/Algorithm_Study/tree/master/1046-last-stone-weight) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1081-video-stitching](https://github.com/seong-wooo/Algorithm_Study/tree/master/1081-video-stitching) |
 | [1094-car-pooling](https://github.com/seong-wooo/Algorithm_Study/tree/master/1094-car-pooling) |
