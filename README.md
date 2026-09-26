@@ -102,6 +102,7 @@
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/seong-wooo/Algorithm_Study/tree/master/0091-decode-ways) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
 | [0300-longest-increasing-subsequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
@@ -187,6 +188,7 @@
 | [0076-minimum-window-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/seong-wooo/Algorithm_Study/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/seong-wooo/Algorithm_Study/tree/master/0242-valid-anagram) |
@@ -236,6 +238,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/seong-wooo/Algorithm_Study/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
@@ -306,6 +309,7 @@
 | [0049-group-anagrams](https://github.com/seong-wooo/Algorithm_Study/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/seong-wooo/Algorithm_Study/tree/master/0133-clone-graph) |
+| [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/seong-wooo/Algorithm_Study/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0219-contains-duplicate-ii) |
@@ -624,6 +628,7 @@
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 ## Bucket Sort
@@ -653,6 +658,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
 ## Manacher
 |  |
 | ------- |
@@ -748,4 +754,8 @@
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/seong-wooo/Algorithm_Study/tree/master/0380-insert-delete-getrandom-o1) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
