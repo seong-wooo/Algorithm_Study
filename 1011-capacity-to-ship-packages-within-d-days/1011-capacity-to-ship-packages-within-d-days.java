@@ -8,9 +8,7 @@ class Solution {
         int left = right;
         right *= (weights.length - 1) / days + 1;
 
-        int answer = Integer.MAX_VALUE;
-
-        while (left <= right) {
+        while (left < right) {
             int mid = left + (right - left) / 2;
             int currentDays = 0;
 
@@ -31,11 +29,10 @@ class Solution {
             if (currentDays > days) {
                 left = mid + 1;
             } else {
-                answer = Math.min(answer, mid);
-                right = mid - 1;
+                right = mid;
             }
         }
 
-        return answer;
+        return left;
     }
 }
