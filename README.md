@@ -201,6 +201,7 @@
 | [0771-jewels-and-stones](https://github.com/seong-wooo/Algorithm_Study/tree/master/0771-jewels-and-stones) |
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
 | [0953-reverse-only-letters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0953-reverse-only-letters) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/seong-wooo/Algorithm_Study/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1297-maximum-number-of-balloons](https://github.com/seong-wooo/Algorithm_Study/tree/master/1297-maximum-number-of-balloons) |
 | [1321-get-equal-substrings-within-budget](https://github.com/seong-wooo/Algorithm_Study/tree/master/1321-get-equal-substrings-within-budget) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/seong-wooo/Algorithm_Study/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -369,6 +370,7 @@
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/seong-wooo/Algorithm_Study/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/seong-wooo/Algorithm_Study/tree/master/0937-online-stock-span) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/seong-wooo/Algorithm_Study/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1666-make-the-string-great](https://github.com/seong-wooo/Algorithm_Study/tree/master/1666-make-the-string-great) |
 | [2128-reverse-prefix-of-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/2128-reverse-prefix-of-word) |
 | [2470-removing-stars-from-a-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/2470-removing-stars-from-a-string) |
