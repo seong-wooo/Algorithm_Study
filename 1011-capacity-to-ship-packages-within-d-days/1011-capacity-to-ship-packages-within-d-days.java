@@ -6,7 +6,7 @@ class Solution {
             right = Math.max(right, w);
         }
         int left = right;
-        right *= Math.ceil((double) weights.length / days);
+        right *= (weights.length - 1) / days + 1;
 
         int answer = Integer.MAX_VALUE;
 
