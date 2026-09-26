@@ -2,13 +2,16 @@ class LRUCache {
     private static class Node {
         int key, value;
         Node prev, next;
-        Node(int key, int value) { this.key = key; this.value = value; }
+        Node(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
     }
 
     private final Map<Integer, Node> map = new HashMap<>();
-    private final Node head = new Node(0, 0);   // 더미 — 가장 최근 쪽
-    private final Node tail = new Node(0, 0);   // 더미 — 가장 오래된 쪽
-    private final int capacity;
+    private final Node head = new Node(0, 0);  
+    private final Node tail = new Node(0, 0);
+    private int capacity;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
@@ -27,37 +30,40 @@ class LRUCache {
 
     public void put(int key, int value) {
         Node node = map.get(key);
-        if (node != null) {
+        if (node == null) {
+            if(capacity == 0) {
+                // 새로운 node를 넣어야하므로 capacity를 확인해야함
+                Node removeNode = tail.prev;
+                unLink(removeNode);
+                capacity++;
+            } 
+            node = new Node(key, value);
+            linkFront(node);
+            capacity--;
+        } else {
             node.value = value;
             moveToFront(node);
-            return;
         }
-
-        if (map.size() == capacity) {
-            Node lru = tail.prev;          // 꼬리 더미 바로 앞 = 가장 오래된 노드
-            unlink(lru);
-            map.remove(lru.key);
-        }
-
-        Node fresh = new Node(key, value);
-        map.put(key, fresh);
-        linkFront(fresh);
     }
-
-    private void moveToFront(Node node) {
-        unlink(node);
+    
+    public void moveToFront(Node node) {
+        unLink(node);
         linkFront(node);
     }
 
-    private void unlink(Node node) {
+    public void unLink(Node node) {
         node.prev.next = node.next;
         node.next.prev = node.prev;
+        node.prev = null;
+        node.next = null;
+        map.remove(node.key);
     }
 
-    private void linkFront(Node node) {
-        node.next = head.next;
-        node.prev = head;
+    public void linkFront(Node node) {
         head.next.prev = node;
+        node.next = head.next;
         head.next = node;
+        node.prev = head;
+        map.put(node.key, node);
     }
 }
