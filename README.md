@@ -242,6 +242,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/seong-wooo/Algorithm_Study/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/seong-wooo/Algorithm_Study/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
@@ -375,6 +376,7 @@
 | [0020-valid-parentheses](https://github.com/seong-wooo/Algorithm_Study/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/seong-wooo/Algorithm_Study/tree/master/0071-simplify-path) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/seong-wooo/Algorithm_Study/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/seong-wooo/Algorithm_Study/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0234-palindrome-linked-list) |
@@ -432,6 +434,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/seong-wooo/Algorithm_Study/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/seong-wooo/Algorithm_Study/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/seong-wooo/Algorithm_Study/tree/master/0380-insert-delete-getrandom-o1) |
 | [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
