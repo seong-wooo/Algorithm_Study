@@ -100,6 +100,7 @@
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0435-non-overlapping-intervals) |
@@ -240,6 +241,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/seong-wooo/Algorithm_Study/tree/master/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/seong-wooo/Algorithm_Study/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/seong-wooo/Algorithm_Study/tree/master/0332-reconstruct-itinerary) |
@@ -338,6 +340,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
+| [0300-longest-increasing-subsequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/seong-wooo/Algorithm_Study/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/seong-wooo/Algorithm_Study/tree/master/0713-subarray-product-less-than-k) |
@@ -714,4 +717,8 @@
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
