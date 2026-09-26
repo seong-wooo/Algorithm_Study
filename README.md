@@ -247,6 +247,7 @@
 | [0332-reconstruct-itinerary](https://github.com/seong-wooo/Algorithm_Study/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/seong-wooo/Algorithm_Study/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/seong-wooo/Algorithm_Study/tree/master/0349-intersection-of-two-arrays) |
+| [0380-insert-delete-getrandom-o1](https://github.com/seong-wooo/Algorithm_Study/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
@@ -307,6 +308,7 @@
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/seong-wooo/Algorithm_Study/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/seong-wooo/Algorithm_Study/tree/master/0349-intersection-of-two-arrays) |
+| [0380-insert-delete-getrandom-o1](https://github.com/seong-wooo/Algorithm_Study/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/seong-wooo/Algorithm_Study/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/seong-wooo/Algorithm_Study/tree/master/0424-longest-repeating-character-replacement) |
@@ -416,6 +418,7 @@
 | [0002-add-two-numbers](https://github.com/seong-wooo/Algorithm_Study/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0268-missing-number) |
+| [0380-insert-delete-getrandom-o1](https://github.com/seong-wooo/Algorithm_Study/tree/master/0380-insert-delete-getrandom-o1) |
 | [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/1014-k-closest-points-to-origin) |
 | [1248-count-number-of-nice-subarrays](https://github.com/seong-wooo/Algorithm_Study/tree/master/1248-count-number-of-nice-subarrays) |
@@ -469,6 +472,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/seong-wooo/Algorithm_Study/tree/master/0303-range-sum-query-immutable) |
+| [0380-insert-delete-getrandom-o1](https://github.com/seong-wooo/Algorithm_Study/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/seong-wooo/Algorithm_Study/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/seong-wooo/Algorithm_Study/tree/master/0937-online-stock-span) |
 | [1955-seat-reservation-manager](https://github.com/seong-wooo/Algorithm_Study/tree/master/1955-seat-reservation-manager) |
@@ -730,4 +734,8 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/seong-wooo/Algorithm_Study/tree/master/0146-lru-cache) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/seong-wooo/Algorithm_Study/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
