@@ -300,6 +300,7 @@
 | [0049-group-anagrams](https://github.com/seong-wooo/Algorithm_Study/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/seong-wooo/Algorithm_Study/tree/master/0133-clone-graph) |
+| [0146-lru-cache](https://github.com/seong-wooo/Algorithm_Study/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/seong-wooo/Algorithm_Study/tree/master/0242-valid-anagram) |
@@ -462,6 +463,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/seong-wooo/Algorithm_Study/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/seong-wooo/Algorithm_Study/tree/master/0303-range-sum-query-immutable) |
@@ -544,6 +546,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0023-merge-k-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0146-lru-cache](https://github.com/seong-wooo/Algorithm_Study/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0234-palindrome-linked-list) |
@@ -721,4 +724,8 @@
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/0300-longest-increasing-subsequence) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/seong-wooo/Algorithm_Study/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
