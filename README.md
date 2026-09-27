@@ -44,6 +44,7 @@
 | [0210-course-schedule-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/seong-wooo/Algorithm_Study/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/seong-wooo/Algorithm_Study/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/seong-wooo/Algorithm_Study/tree/master/0617-merge-two-binary-trees) |
 | [0684-redundant-connection](https://github.com/seong-wooo/Algorithm_Study/tree/master/0684-redundant-connection) |
@@ -110,6 +111,7 @@
 | [0322-coin-change](https://github.com/seong-wooo/Algorithm_Study/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/seong-wooo/Algorithm_Study/tree/master/0542-01-matrix) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/seong-wooo/Algorithm_Study/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0746-min-cost-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0747-min-cost-climbing-stairs) |
@@ -266,6 +268,7 @@
 | [0435-non-overlapping-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
+| [0542-01-matrix](https://github.com/seong-wooo/Algorithm_Study/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/seong-wooo/Algorithm_Study/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0643-maximum-average-subarray-i) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
@@ -559,6 +562,7 @@
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
+| [0542-01-matrix](https://github.com/seong-wooo/Algorithm_Study/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/seong-wooo/Algorithm_Study/tree/master/0695-max-area-of-island) |
 | [0967-minimum-falling-path-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0967-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/seong-wooo/Algorithm_Study/tree/master/0994-rotting-oranges) |
