@@ -202,6 +202,7 @@
 | [0332-reconstruct-itinerary](https://github.com/seong-wooo/Algorithm_Study/tree/master/0332-reconstruct-itinerary) |
 | [0344-reverse-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/seong-wooo/Algorithm_Study/tree/master/0383-ransom-note) |
+| [0402-remove-k-digits](https://github.com/seong-wooo/Algorithm_Study/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/seong-wooo/Algorithm_Study/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -389,6 +390,7 @@
 | [0155-min-stack](https://github.com/seong-wooo/Algorithm_Study/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/seong-wooo/Algorithm_Study/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/seong-wooo/Algorithm_Study/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/seong-wooo/Algorithm_Study/tree/master/0937-online-stock-span) |
@@ -594,6 +596,7 @@
 | [0011-container-with-most-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
+| [0402-remove-k-digits](https://github.com/seong-wooo/Algorithm_Study/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0435-non-overlapping-intervals) |
@@ -630,6 +633,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/seong-wooo/Algorithm_Study/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/seong-wooo/Algorithm_Study/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/seong-wooo/Algorithm_Study/tree/master/0937-online-stock-span) |
