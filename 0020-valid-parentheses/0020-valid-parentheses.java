@@ -4,18 +4,8 @@ class Solution {
         int top = 0;
 
         for (char c : s.toCharArray()) {
-            if (c == ')') {
-                if (top == 0 || stack[top-1] != '(') {
-                    return false;
-                }
-                top--;
-            } else if (c == ']') {
-                if (top == 0 || stack[top-1] != '[') {
-                    return false;
-                }
-                top--;
-            } else if (c == '}') {
-                if (top == 0 || stack[top-1] != '{') {
+            if (c == ')' || c == ']' || c == '}') {
+                if (top == 0 || ((c == ')' && stack[top-1] != '(') || (c == ']' && stack[top-1] != '[') || (c == '}' && stack[top-1] != '{'))) {
                     return false;
                 }
                 top--;
