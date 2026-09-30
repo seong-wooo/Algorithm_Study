@@ -1,16 +1,27 @@
 class Solution {
     public boolean isValid(String s) {
-        if ((s.length() & 1) == 1) {
-            return false;
-        }
-
         char[] stack = new char[s.length()];
         int top = 0;
+
         for (char c : s.toCharArray()) {
-            if (c == '(') stack[top++] = ')';
-            else if (c == '[') stack[top++] = ']';
-            else if (c == '{') stack[top++] = '}';
-            else if (top == 0 || stack[--top] != c) return false;
+            if (c == ')') {
+                if (top == 0 || stack[top-1] != '(') {
+                    return false;
+                }
+                top--;
+            } else if (c == ']') {
+                if (top == 0 || stack[top-1] != '[') {
+                    return false;
+                }
+                top--;
+            } else if (c == '}') {
+                if (top == 0 || stack[top-1] != '{') {
+                    return false;
+                }
+                top--;
+            } else {
+                stack[top++] = c;
+            }
         }
         return top == 0;
     }
