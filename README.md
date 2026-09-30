@@ -105,6 +105,7 @@
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/seong-wooo/Algorithm_Study/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/seong-wooo/Algorithm_Study/tree/master/0091-decode-ways) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/seong-wooo/Algorithm_Study/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/seong-wooo/Algorithm_Study/tree/master/0198-house-robber) |
@@ -246,6 +247,7 @@
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/seong-wooo/Algorithm_Study/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/seong-wooo/Algorithm_Study/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
