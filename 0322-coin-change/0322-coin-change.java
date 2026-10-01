@@ -3,31 +3,25 @@ class Solution {
         if (amount == 0) {
             return 0;
         }
+        int[] counter = new int[amount + 1];
+        Arrays.fill(counter, Integer.MAX_VALUE);
 
-        boolean[] visited = new boolean[amount + 1];
-
-        Queue<int[]> amountCount = new ArrayDeque<>();
-
-        // amount, count
-        amountCount.offer(new int[]{0, 0});
-        visited[0] = true;
-        while (!amountCount.isEmpty()) {
-            int[] ac = amountCount.poll();
-            int am = ac[0];
-            int count = ac[1];
-
-            if (am == amount) {
-                return count;
-            } 
-
-            for (int coin : coins) {
-                if (coin <= amount - am && !visited[coin + am]) {
-                    amountCount.add(new int[]{coin + am, count + 1});
-                    visited[coin + am] = true;
-                }
+        Arrays.sort(coins);
+        for (int c : coins) {
+            if (c <= amount) {
+                counter[c] = 1;
             }
         }
 
-        return -1;
+        for (int i = 1; i <= amount; i++) {
+            if(counter[i] == Integer.MAX_VALUE) {
+                for (int j = 0; j < coins.length && coins[j] <= i; j++) {
+                    if (counter[i - coins[j]] != Integer.MAX_VALUE) {
+                        counter[i] = Math.min(counter[i], counter[i - coins[j]] + 1);
+                    }
+                }
+            }
+        }
+        return counter[amount] == Integer.MAX_VALUE ? -1 : counter[amount];
     }
 }
