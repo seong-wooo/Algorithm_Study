@@ -1,41 +1,44 @@
 class MinStack {
+    Node head;
+    Node tail;
     static class Node {
+        Node prev;
+        Node next;
         int value;
         int minValue;
 
-        Node prev;
-        Node next;
-        
-        public Node(int value, int minValue) {
+        public Node(int value) {
             this.value = value;
-            this.minValue = minValue;
         }
     }
 
-    private final Node head = new Node(0,Integer.MAX_VALUE);
-    private final Node tail = new Node(0,0);
-
     public MinStack() {
+        head = new Node(Integer.MAX_VALUE);
+        tail = new Node(Integer.MAX_VALUE);
         head.next = tail;
         tail.prev = head;
+        head.minValue = Integer.MAX_VALUE;
+        tail.minValue = Integer.MAX_VALUE;
     }
     
     public void push(int value) {
+        Node newNode = new Node(value);
         Node prev = tail.prev;
-        int minValue = (int) Math.min(prev.minValue, value);
-        Node newNode = new Node(value, minValue);
-        prev.next = newNode;
         newNode.prev = prev;
-        newNode.next = tail;
+        prev.next = newNode;
+        newNode.next =tail;
         tail.prev = newNode;
+        newNode.minValue = Math.min(value, prev.minValue);
     }
     
     public void pop() {
-        Node node = tail.prev;
-        node.prev.next = tail;
-        tail.prev = node.prev;
-        node.next = null;
-        node.prev = null;
+        Node popNode = tail.prev;
+        Node prev = popNode.prev;
+        prev.next = tail;
+        tail.prev = prev;
+
+        popNode.prev = null;
+        popNode.next = null;
     }
     
     public int top() {
