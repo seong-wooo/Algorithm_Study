@@ -254,6 +254,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/seong-wooo/Algorithm_Study/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/seong-wooo/Algorithm_Study/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/seong-wooo/Algorithm_Study/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/seong-wooo/Algorithm_Study/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
@@ -334,6 +335,7 @@
 | [0133-clone-graph](https://github.com/seong-wooo/Algorithm_Study/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/seong-wooo/Algorithm_Study/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/seong-wooo/Algorithm_Study/tree/master/0146-lru-cache) |
+| [0169-majority-element](https://github.com/seong-wooo/Algorithm_Study/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/seong-wooo/Algorithm_Study/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0219-contains-duplicate-ii) |
@@ -484,6 +486,7 @@
 | [0056-merge-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/seong-wooo/Algorithm_Study/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/seong-wooo/Algorithm_Study/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/seong-wooo/Algorithm_Study/tree/master/0217-contains-duplicate) |
@@ -523,6 +526,7 @@
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/seong-wooo/Algorithm_Study/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/seong-wooo/Algorithm_Study/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/seong-wooo/Algorithm_Study/tree/master/0383-ransom-note) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
@@ -538,6 +542,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0023-merge-k-sorted-lists) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/seong-wooo/Algorithm_Study/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/seong-wooo/Algorithm_Study/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/seong-wooo/Algorithm_Study/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
@@ -799,4 +804,8 @@
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0416-partition-equal-subset-sum) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/seong-wooo/Algorithm_Study/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
