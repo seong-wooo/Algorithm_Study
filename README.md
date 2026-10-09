@@ -238,6 +238,7 @@
 | [0011-container-with-most-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/seong-wooo/Algorithm_Study/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/seong-wooo/Algorithm_Study/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/seong-wooo/Algorithm_Study/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/seong-wooo/Algorithm_Study/tree/master/0046-permutations) |
@@ -331,6 +332,7 @@
 | [0001-two-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/seong-wooo/Algorithm_Study/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/seong-wooo/Algorithm_Study/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/seong-wooo/Algorithm_Study/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/seong-wooo/Algorithm_Study/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/seong-wooo/Algorithm_Study/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/seong-wooo/Algorithm_Study/tree/master/0128-longest-consecutive-sequence) |
@@ -583,6 +585,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/seong-wooo/Algorithm_Study/tree/master/0036-valid-sudoku) |
 | [0063-unique-paths-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0063-unique-paths-ii) |
 | [0200-number-of-islands](https://github.com/seong-wooo/Algorithm_Study/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0240-search-a-2d-matrix-ii) |
