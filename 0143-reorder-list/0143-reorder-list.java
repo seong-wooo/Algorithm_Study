@@ -39,11 +39,8 @@ class Solution {
         ListNode left = root.next;
         ListNode right = prev;
 
-        while(left != null) {
+        while(right != null) {
             ListNode leftNext = left.next;
-            if (right == null) {
-                break;
-            }
             ListNode rightNext = right.next;
             
             left.next = right;
