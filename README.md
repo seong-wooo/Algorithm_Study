@@ -208,6 +208,7 @@
 | [0332-reconstruct-itinerary](https://github.com/seong-wooo/Algorithm_Study/tree/master/0332-reconstruct-itinerary) |
 | [0344-reverse-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/seong-wooo/Algorithm_Study/tree/master/0383-ransom-note) |
+| [0394-decode-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/seong-wooo/Algorithm_Study/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/seong-wooo/Algorithm_Study/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/seong-wooo/Algorithm_Study/tree/master/0424-longest-repeating-character-replacement) |
@@ -420,6 +421,7 @@
 | [0227-basic-calculator-ii](https://github.com/seong-wooo/Algorithm_Study/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/seong-wooo/Algorithm_Study/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/seong-wooo/Algorithm_Study/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/seong-wooo/Algorithm_Study/tree/master/0739-daily-temperatures) |
@@ -734,6 +736,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/seong-wooo/Algorithm_Study/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/seong-wooo/Algorithm_Study/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0394-decode-string) |
 ## Bracket Sequences
 |  |
 | ------- |
