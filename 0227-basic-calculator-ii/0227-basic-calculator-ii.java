@@ -2,7 +2,8 @@ class Solution {
     public int calculate(String s) {
         char op = '+';
         int num = 0;
-        Deque<Integer> stack = new ArrayDeque<>();
+        int result = 0;
+        int last = 0;
 
         for (int i = 0 ; i < s.length(); i++)  { 
             char c = s.charAt(i);
@@ -13,20 +14,16 @@ class Solution {
 
             if (!Character.isDigit(c) && c != ' ' || i == s.length() - 1) {
                 switch(op) {
-                    case('+') -> stack.push(num);
-                    case('-') -> stack.push(-num);
-                    case('*') -> stack.push(stack.pop() * num);
-                    case('/') -> stack.push(stack.pop() / num);
+                    case('+') -> {result += last; last = num;}
+                    case('-') -> {result += last; last = -num; }
+                    case('*') -> last *= num;
+                    case('/') -> last /= num;
                 }
                 op = c;
                 num = 0;
             }
         }
 
-        int result = 0;
-        for (int a : stack) {
-            result += a;
-        }
-        return result;
+        return result + last;
     }
 }
