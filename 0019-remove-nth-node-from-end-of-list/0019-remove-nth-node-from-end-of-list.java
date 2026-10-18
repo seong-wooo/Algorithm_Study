@@ -12,22 +12,19 @@ class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode root = new ListNode(0);
         root.next = head;
-        ListNode node = root;
-        
-        Map<ListNode, ListNode> prevMap = new HashMap<>();
-        
-        while (node != null && node.next != null) {
-            prevMap.put(node.next, node);
-            node = node.next;
+        ListNode fast = root;
+        ListNode slow = root;
+
+        for (int i = 0; i <= n; i++) {
+            fast = fast.next;
         }
 
-        for (int i = 0; i < n; i++) {
-            node = prevMap.get(node);
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
         }
-        ListNode next = node.next.next;
-        node.next.next = null;
-        node.next = next;
 
+        slow.next = slow.next.next;
         return root.next;
     }
 }
