@@ -75,6 +75,7 @@
 | [0332-reconstruct-itinerary](https://github.com/seong-wooo/Algorithm_Study/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/seong-wooo/Algorithm_Study/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/seong-wooo/Algorithm_Study/tree/master/0355-design-twitter) |
+| [0621-task-scheduler](https://github.com/seong-wooo/Algorithm_Study/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0743-network-delay-time](https://github.com/seong-wooo/Algorithm_Study/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/seong-wooo/Algorithm_Study/tree/master/0744-network-delay-time) |
@@ -296,6 +297,7 @@
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [0542-01-matrix](https://github.com/seong-wooo/Algorithm_Study/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/seong-wooo/Algorithm_Study/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/seong-wooo/Algorithm_Study/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0643-maximum-average-subarray-i) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/seong-wooo/Algorithm_Study/tree/master/0695-max-area-of-island) |
@@ -369,6 +371,7 @@
 | [0496-next-greater-element-i](https://github.com/seong-wooo/Algorithm_Study/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/seong-wooo/Algorithm_Study/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/seong-wooo/Algorithm_Study/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0767-reorganize-string) |
 | [0771-jewels-and-stones](https://github.com/seong-wooo/Algorithm_Study/tree/master/0771-jewels-and-stones) |
@@ -525,6 +528,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/seong-wooo/Algorithm_Study/tree/master/0349-intersection-of-two-arrays) |
 | [0435-non-overlapping-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
+| [0621-task-scheduler](https://github.com/seong-wooo/Algorithm_Study/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/seong-wooo/Algorithm_Study/tree/master/0973-k-closest-points-to-origin) |
@@ -558,6 +562,7 @@
 | [0169-majority-element](https://github.com/seong-wooo/Algorithm_Study/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/seong-wooo/Algorithm_Study/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/seong-wooo/Algorithm_Study/tree/master/0383-ransom-note) |
+| [0621-task-scheduler](https://github.com/seong-wooo/Algorithm_Study/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/seong-wooo/Algorithm_Study/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0767-reorganize-string) |
 | [0819-most-common-word](https://github.com/seong-wooo/Algorithm_Study/tree/master/0819-most-common-word) |
@@ -653,6 +658,7 @@
 | [0410-split-array-largest-sum](https://github.com/seong-wooo/Algorithm_Study/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/seong-wooo/Algorithm_Study/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/seong-wooo/Algorithm_Study/tree/master/0455-assign-cookies) |
+| [0621-task-scheduler](https://github.com/seong-wooo/Algorithm_Study/tree/master/0621-task-scheduler) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/seong-wooo/Algorithm_Study/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0767-reorganize-string](https://github.com/seong-wooo/Algorithm_Study/tree/master/0767-reorganize-string) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/seong-wooo/Algorithm_Study/tree/master/1047-maximize-sum-of-array-after-k-negations) |
